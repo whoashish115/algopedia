@@ -1,0 +1,70 @@
+@use "./variables.scss" as *;
+
+
+.page>#quartz-body .page-header {
+    margin: 4rem 0 0;
+}
+
+.page>#quartz-body .sidebar, .page>#quartz-body .sidebar{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.right.sidebar {
+    padding-right: 0.5rem;
+    scrollbar-width: thin;
+}
+
+.toc{
+    height: 100% !important;
+
+
+}
+
+.left.sidebar,
+.right.sidebar {
+    overflow-y: auto;
+    height: 100vh;
+
+    /* Firefox */
+    scrollbar-width: none;
+
+    /* IE/old Edge */
+    -ms-overflow-style: none;
+}
+.left.sidebar::-webkit-scrollbar,
+.right.sidebar::-webkit-scrollbar {
+    display: none;
+}
+
+.note-properties-tags{
+    flex-wrap: wrap;
+    gap:6px 0px;
+}
+
+.tag-link{
+    white-space:nowrap;
+}
+
+
+.mermaid svg[aria-roledescription="xychart"] g.main rect.background,
+.mermaid svg rect.background,
+.mermaid svg .background {
+  fill: transparent !important;
+}
+.mermaid-container svg[aria-roledescription="xychart"] g.main rect.background,
+.mermaid-container svg rect.background,
+.mermaid-container svg .background {
+  fill: transparent !important;
+}
+
+.mermaid svg {
+  font-family: var(--bodyFont) !important;
+
+  text.title, 
+  text.axis-label, 
+  text.label, 
+  g.active-legend text {
+    fill: var(--dark) !important; 
+  }
+}
