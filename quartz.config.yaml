@@ -1,13 +1,13 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: The Infinite Labyrinth
+  pageTitle: Competitive Programming
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: spellbook.whoashish.com
+  baseUrl: algopedia.whoashish.com
   ignorePatterns:
     - private
     - templates
@@ -21,25 +21,25 @@ configuration:
       code: IBM Plex Mono
     colors:
       lightMode:
-        light: "#ffffff"
-        lightgray: "#e5e5e5"
-        gray: "#b8b8b8"
-        darkgray: "#4e4e4e"
-        dark: "#2b2b2b"
-        secondary: "#e66c10"
-        tertiary: "#f08a5d"
-        highlight: "#f08a5d26"
-        textHighlight: "#f08a5d44"
+        light: "#fbfdff"
+        lightgray: "#e4eef5"
+        gray: "#91a4b3"
+        darkgray: "#4a5d6d"
+        dark: "#233240"
+        secondary: "#1976d2"
+        tertiary: "#42a5f5"
+        highlight: "#42a5f526"
+        textHighlight: "#42a5f544"
       darkMode:
-        light: "#03030a"
-        lightgray: "#393639"
-        gray: "#646464"
-        darkgray: "#d4d4d4"
-        dark: "#ebebec"
-        secondary: "#ff7f24"
-        tertiary: "#ff9f7c"
-        highlight: "#ff9f7c26"
-        textHighlight: "#ff9f7c55"
+        light: "#0b1118"
+        lightgray: "#1e2b36"
+        gray: "#72889a"
+        darkgray: "#d5e4ef"
+        dark: "#f2f8fc"
+        secondary: "#4dabf7"
+        tertiary: "#82cfff"
+        highlight: "#82cfff22"
+        textHighlight: "#82cfff55"
 plugins:
   - source: github:quartz-community/created-modified-date
     enabled: true
@@ -68,6 +68,8 @@ plugins:
     layout:
       position: right
       priority: 45
+  - source: github:quartz-community/unlisted-pages
+    enabled: true
   - source: github:quartz-community/obsidian-flavored-markdown
     enabled: true
     options:
@@ -174,11 +176,6 @@ plugins:
       group: toolbar
       groupOptions:
         grow: true
-  - source: github:quartz-community/backlinks
-    enabled: true
-    layout:
-      position: right
-      priority: 50
   - source: github:quartz-community/article-title
     enabled: true
     layout:

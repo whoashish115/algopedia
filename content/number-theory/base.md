@@ -1,5 +1,6 @@
 ---
-title: 2. Number Theory
+title: Base
+
 ---
 Using prime factorization, any number $N$ can be represented as:
 $$N = p_1^{e_1} \cdot p_2^{e_2} \cdots p_k^{e_k}$$
@@ -323,3 +324,5 @@ vector<pair<int,int>> factorize(int x) {
 **Algorithm**  
 - **Build:** Initialize `spf[i] = i`. For each prime `i`, iterate over its multiples starting from `i*i` and set `spf[j] = i` if it hasn’t been set yet.  
 - **Factorize:** Repeatedly extract the smallest prime factor `spf[x]`, count how many times it divides `x`, divide it out, and record the pair `(prime, exponent)`.
+
+
