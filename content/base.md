@@ -111,10 +111,13 @@ Todos
 - Prefix Sum
 - Difference Array
 - Sparse Table
+- 
 - Fenwick Tree
 - Segment Tree
 - Lazy Segment Tree
+- 
 - Persistent Segment Tree
+- 
 - Dynamic Segment Tree
 - Merge Sort Tree
 - Wavelet Tree
