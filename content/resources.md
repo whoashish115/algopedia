@@ -1,34 +1,8 @@
 ---
-title: Resources
+title: 🐟 Resources
 ---
-## Route
-1. Arrays (Questions Practice)
-2. Strings Algorithm (Striver + CodeNCode)
-    1. **KMP**, **Rabin Karp (must)**
-3. Maths (Questions Practice)
-    1. Number Theory, Combinatorics
-4. Binary Search (Codeforces EDU + Luv C++ Yt)
-5. Bit Manipulation (Questions Practice)
-6. Two Pointers (Codeforces EDU)
-7. Linked List (Striver)
-8. Stack & Queues (Striver)
-9. Recursion & Backtracking (Striver)
-10. Hashing (Questions Practice)
-11. Heaps & Maps (Striver + Aditya Verma for Heaps)
-12. Binary Tree & BST (Striver)
-13. DP & dp with bitmasking (Aditya Verma + Striver DP playlist)
-14. Graphs (CodeNCode + Striver + Luv C++ Yt)
-15. DFS, BFS, TopoSort
-16. Shortest Path Algos (Dijkstra, Bellman Ford, Floyd Warshall)
-17. MST (Prim’s & Kruskal)
-18. Articulation Points & Bridges (very rarely asked)
-19. Strongly Connected Components (Kosaraju’s Algo)
-20. LCA (Binary Lifting)
-21. Hamiltonian Path (directly asked in coding rounds)
-22. Trie (Striver)
-23. DSU (Striver + Luv C++ Yt )
-24. SegTree (CodeNCode), Lazy Propagation(CodeNCode), Fenwick Tree (Luv C++)
-## Problem Sets
+
+### Problem Sets
 - [Codeforces](http://codeforces.com/contests) - Main contest platform with rating and problem archive  
 - [Codeforces Gyms](https://codeforces.com/gyms) - Training contests and past ICPC regionals  
 - [Leetcode](https://leetcode.com) - Interview‑focused problems and weekly contests  
@@ -39,8 +13,7 @@ title: Resources
 - [TopH](https://toph.co/) - Bangladeshi online judge with regular contests  
 - [CSES Problem Set](https://cses.fi/problemset/) - Well‑known algorithm problem set  
 - [Codewars](https://www.codewars.com/) - Rank‑based coding challenges in many languages  
-- [HackerEarth Practice](https://www.hackerearth.com/practice/) - Practice problems and monthly challenges  
-- [HackerEarth Challenges](https://www.hackerearth.com/challenges/) - Ongoing hackathons and coding contests (platform)  
+- [HackerEarth](https://www.hackerearth.com) - Practice problems and monthly challenges  
 - [Light OJ](https://lightoj.com/) - Beginner‑friendly problem archive  
 - [OJ.uz](https://oj.uz/problems) - Collection of past olympiad problems  
 - [ICPC Past Problems](https://icpc.global/worldfinals/past-problems) - Archive of past ICPC finals problems  
@@ -51,10 +24,6 @@ title: Resources
 - [Google Coding Competition Archive](https://github.com/google/coding-competitions-archive) - Past problems from Google contests (archive only)  
 - [ACM Timus](https://acm.timus.ru/problemset.aspx) - Ural Federal University problem set  
 - [ACM HDU](http://acm.hdu.edu.cn/) - Hangzhou Dianzi University online judge  
-- [exercism.org](http://exercism.org/) - Mentored coding exercises in 50+ languages  
-- [overthewire.org](http://overthewire.org/) - Wargames for learning security and scripting  
-- [interviewbit.com](http://interviewbit.com/) - Structured interview preparation  
-- [codingame.com](http://codingame.com/) - Game‑based programming and AI challenges (platform)  
 - [Aizu Online Judge](http://judge.u-aizu.ac.jp/onlinejudge/index.jsp) - Japanese university OJ  
 - [POJ](http://poj.org/) - Peking University problem archive  
 - [UVa Online Judge](https://uva.onlinejudge.org/) - Classic OJ with huge problem set  
@@ -75,7 +44,6 @@ title: Resources
 - [PrepBytes MyCode](https://mycode.prepbytes.com) - Placement practice problems  
 - [UOJ](https://uoj.ac) - Universal Online Judge (Chinese)  
 - [KEP](https://kep.uz) - Uzbek educational OJ  
-- [CTFtime](https://ctftime.org) - CTF competition tracker (not a competition itself)  
 - [BestCoder](http://bestcoder.hdu.edu.cn) - HDU weekly contest platform  
 - [Open Kattis](https://open.kattis.com) - Contest platform used in many universities  
 - [Cups.Online](https://cups.online) - Russian contest platform (Moscow workshops)  
@@ -93,7 +61,6 @@ title: Resources
 - [Kattis](https://kattis.com) - Main Kattis problem archive  
 - [COCI](https://hsin.hr/coci) - Croatian Open Competition in Informatics (archive)  
 - [ACM BSU](https://acm.bsu.by) - Belarusian State University contest archive  
-- [Advent of Code](https://adventofcode.com) - Annual puzzle event (practice/fun)  
 - [Inf‑Open](https://inf-open.ru) - Russian informatics open contest archive  
 - [Petrozavodsk Camp](https://camp.icpc.petrsu.ru) - High‑level training camp (practice)  
 - [SnarkNews Contests](https://contests.snarknews.info) - Contest archive  
@@ -104,82 +71,42 @@ title: Resources
 - [Yandex Contest](https://contest.yandex.ru) - General Yandex contest archive  
 - [ACM BSUIR](https://acm.bsuir.by) - BSUIR open contest archive  
 - [AZSPCS](https://azspcs.com) - Puzzle contest archive  
-- [TechGig](https://www.techgig.com) - Indian coding competition platform  
-- [ICFP Contest](https://icfpconference.org) - ICFP contest archive  
 - [UCLA CodeSprint](https://codesprintla.uclaacm.com) - UCLA ACM competition (archive)  
-- [Bioinf Contest](https://contest.bioinf.me) - Bioinformatics contest archive  
 - [BSUIR Contest](https://contest.bsuir.by) - BSUIR contest system  
 - [Sort‑Me](https://sort-me.org) - French CP platform  
 - [SupeCoder](https://supecoder.dev) - Spanish/Portuguese coding contests (platform)  
-- [Quora Programming Challenges](https://quora.com) - Quora coding challenge archive  
 - [Innopolis PCMS](https://pcms.university.innopolis.ru) - Innopolis contest system  
-- [Wincent DragonByte](https://wincentdragonbyte.com) - Small contest platform  
 - [Kilonova](https://kilonova.ro) - Romanian OJ  
-- [AIPlanet](https://aiplanet.com) - AI Planet coding challenge platform  
 - [ITMO Trains](https://nerc.itmo.ru/trains) - ITMO training contest archive  
-- [Highload Fun](https://highload.fun) - Highload fun contest platform  
 - [MIPT Edu](https://it-edu.mipt.ru) - MIPT educational contests  
-- [Codility](https://codility.com) - Coding assessment platform  
-- [Python Code Club](https://pythoncode.club) - Python coding challenge archive  
-- [Eluminatis OJ](http://judge.eluminatis-of-lu.com) - Small OJ  
 - [Teamscode](https://teamscode.org) - High school contest platform  
-- [CodeAny](https://codeany.org) - CodeAny contest platform  
-- [DataSteam](https://datsteam.dev) - DataSteam contest platform  
 - [COJ](http://coj.uci.cu) - Caribbean Online Judge  
-- [Code Hunt 24](https://ch24.org) - Code Hunt 24 contest archive  
 - [PetrSU ACM](https://acm.petrsu.ru) - Petrozavodsk State University contest archive  
 - [MITIT](https://mitit.org) - MITIT contest archive  
-- [RepoVive](https://repovive.com) - RepoVive coding challenge platform  
 - [Informatics MCCME](http://informatics.mccme.ru) - Moscow State informatics archive  
 - [Calico](https://calico.cs.berkeley.edu) - UC Berkeley Calico contest archive  
-- [Coding Contest](https://codingcontest.org) - General contest platform  
 - [Contest Pizza](https://contest.pizza) - Fun contest platform  
 - [Cereal Codes](https://cerealcodes.org) - Cereal Codes contest platform  
-- [Opener](https://opener.itransition.com) - Opener contest platform  
 - [Constructor University](https://constructor.university) - Constructor University contest archive  
-- [CompeteSAI](https://competesai.com) - CompeteSAI platform  
-- [Eldarverse](https://eldarverse.com) - Eldarverse contest archive  
-- [CodeCracker](http://codecracker.arhn.in) - CodeCracker contest archive  
-- [Andgein](https://andgein.ru) - Andgein contest archive  
-- [WWPPC](https://wwppc.tech) - WWPPC contest archive  
-- [Bayan Contest](http://contest.bayan.ir) - Bayan contest archive  
-- [Coliseum AI](https://coliseum.ai) - Coliseum AI coding platform  
-- [AIGaming](https://aigaming.com) - AI Gaming contest platform  
-- [AIContest.dev](https://aicontest.dev) - AI contest platform  
-- [LIT](https://lit.lhsmathcs.org) - LIT contest archive  
 - [Solved.ac](https://solved.ac) - Korean rating system for BOJ problems  
-- [USACO Guide](https://usaco.guide) - Free USACO training resource  
 - [Solve.by](https://solve.by) - Belarusian solve platform  
-- [CodeBattle](https://codebattle.in) - CodeBattle contest platform  
-- [Bot Games](https://bot-games.fun) - Bot programming games platform 
 - [Algo Muse](http://www.algomuse.appspot.com) - Research-based algorithmic problems. 
 - [Baekjoon Online Judge](https://www.acmicpc.net/) - Korean Online Judge. 10000+ problems. Supports 60+ languages.
-- [Codefights](https://codefights.com/) - Practice programming and tackle your next tech interview
 - [CodeMarshal](https://algo.codemarshal.org/) - Real-world contests online!
 - [HiHoCoder](http://hihocoder.com/) - Chinese and English problem-solving practice and recruitment challenge site.
 - [Infoarena](http://www.infoarena.ro/) - Romanian Online Judge. 1500+ algorithmic problems
 - [LavidaOnlineJudge](http://judge.lavida.us) - Korean Online Judge(Half English). 1300+ problems.
-- [Learneroo Algorithms Tutorials](https://www.learneroo.com/subjects/8) - Learn and practice algorithms by solving challenges online.
-- [Rosalind](http://rosalind.info/problems/locations/) - A platform for learning bioinformatics and programming through problem-solving.
 - [ShareCode.io ](https://sharecode.io/) - Online Judge and contest host with a lot of algorithmic problems in the archive to practice.
-- [Snakify](https://snakify.org/) - An introductory Python course with 100+ algorithmic problems and a step-by-step debugger (from Russia).
-- [Online Math Contest](https://onlinemathcontest.com/) - high grade math problems
-## Sheets
-* Striver A2Z
-* Ask Senior
-* Algozenith Premium Sheet
-* ACD Sheet (A Code Daily)
-* Kartik Arora Specialist Sheet
-* Kartik Arora Expert Sheet
-* NeetCode Sheet
-* A2OJ Ladders
-* Coding 75 Sheet
-* Striver CP Sheet
-* TLE Eliminators Sheet
-* CSES Sheet
-* AtCoder Training (KenKoo)
-* C2OJ Ladders
-## Competitions  
+- [Rosalind](http://rosalind.info/)
+- [Online Math Contest](https://onlinemathcontest.com/)
+- [RepoVive](https://repovive.com)
+- [Advent of Code](https://adventofcode.com)
+
+- [Problems That Will Make You Learn Something New](https://docs.google.com/spreadsheets/d/15CK3SvWQqck-KVU6z9zVJoW0-Rikylapw9v8eXxVDGo/edit#gid=0) - Curated list of problems that teach new concepts
+- [Codeforces Topic-wise Questions Sheet](https://takeuforward.org/interview-experience/strivers-cp-sheet/?utm_source=youtube&utm_medium=striver&utm_campaign=yt_video) - Topic‑wise CP sheet
+- [LeetCode Topic-wise Questions Sheet](https://github.com/kunal-kushwaha/DSA-Bootcamp-Java/tree/main/assignments) - Topic‑wise assignments from Kunal's DSA bootcamp
+
+### Competitions  
 - [Meta Hacker Cup](https://www.facebook.com/codingcompetitions/hacker-cup/) – Annual global algorithmic competition by Meta  
 - [Google Coding Competitions](https://codingcompetitions.withgoogle.com) – Official Google contest series (Code Jam, Kick Start)  
 - [ICPC Global](https://icpc.global) – International Collegiate Programming Contest (world finals)  
@@ -192,11 +119,7 @@ title: Resources
 - [Game AI Cup](https://gameaicup.com) – Game AI programming cup  
 - [Midnight Code Cup](https://midnightcodecup.org) – Midnight Code Cup  
 - [Blackbox Cup](https://blackboxcup.com) – Blackbox Cup  
-- [Battlecode](https://battlecode.org) – MIT AI bot programming competition  
-- [Reply Challenges](https://challenges.reply.com) – Reply Code Challenges (global)  
 - [USACO](https://usaco.org) – USA Computing Olympiad (national championship)  
-- [Advent of Code](https://adventofcode.com) – Annual large‑scale programming puzzle event  
-- [Kaggle](https://www.kaggle.com) – Major data science & ML competition platform  
 - [Universal Cup](https://ucup.ac) – Global team contest series (UCup)  
 - [ICFP Contest](https://icfpconference.org) – ICFP Programming Contest (annual)  
 - [Deadline24](https://deadline24.pl) – Polish marathon programming competition  
@@ -205,9 +128,8 @@ title: Resources
 - [Russian Code Cup](https://russiancodecup.ru) - Russian Code Cup archive  
 - [Russian AI Cup](https://russianaicup.ru) - AI programming competition  
 - [Microsoft Imagine Cup](https://imaginecup.microsoft.com/) - Student innovation competition  
-- [MLH](https://mlh.io/) - Major League Hacking student hackathon league  
-- [Midnight Code Cup](https://midnightcodecup.org) - Midnight Code Cup contests  
-## Resources
+
+### Tools
 - [Big-O Cheatsheet](https://www.bigocheatsheet.com/) - Time complexity reference  
 - [CP-Algorithms](https://cp-algorithms.com) - Detailed algorithms and data structures  
 - [clist.by](http://clist.by/) - Aggregates upcoming contests from all judges  
@@ -217,15 +139,30 @@ title: Resources
 - [Polygon](https://polygon.codeforces.com/) - Platform for creating contest problems  
 - [Graph Editor](https://csacademy.com/app/graph_editor/) - Visualize and edit graphs online  
 - [Virtual Judge](http://vjudge.net) - Host virtual contests using multiple OJs  
-- [BNU Online Judge](https://www.bnuoj.com/v3/) - OJ with virtual contest support  
 - [VisuAlgo](https://visualgo.net/) - Algorithm and data structure visualizations  
 - [OEIS](https://oeis.org/) - Database of integer sequences  
 - [NIST DADS](https://xlinux.nist.gov/dads/) - Dictionary of algorithms and data structures  
 - [Solved.ac](https://solved.ac) - Rating and statistics for BOJ problems  
 - [CPHOF](https://cphof.org) - Codeforces performance hall of fame (stats)  
 - [IOI Statistics](https://stats.ioinformatics.org) - IOI medal and problem statistics  
-- [USACO Guide](https://usaco.guide) - Free USACO training resources  
-## Books
+- [USACO Guide](https://usaco.guide) - Free USACO training resources
+- [List of Algorithms](https://en.wikipedia.org/wiki/List_of_algorithms) 
+- [CS 521 - Advanced Algorithm Design](https://www.cs.princeton.edu/courses/archive/fall13/cos521/)
+- [Codeforces Cheator Database](https://cf-cheater-database.vercel.app/)
+- [Entrant Hub](https://entranthub.com/)
+- [Codeforces Catalog](https://codeforces.com/catalog)
+- [Codeforces Anytime](https://codeforces-anytime.sonoapp.page)
+- [Codeforces Vizualizer (CFVIZ)](https://cfviz.netlify.app/index.html)
+- [Prac Hub](https://prachub.com/)
+- [Virtual Judge](http://vjudge.net) - Host virtual contests using multiple OJs
+- [The Ultimate Topic List](https://youkn0wwho.academy/topic-list) - Comprehensive list of CP topics with problem references
+- [Getting into Competitive Programming](https://github.com/the-hyp0cr1t3/CC) - Comprehensive CP resource repo
+- [Competitive Programming Beginner Topics](https://github.com/the-hyp0cr1t3/CC/tree/master/Beginner%20Topics) - Beginner topic collection
+- [Algorithms Princeton Lectures](https://algs4.cs.princeton.edu/lectures/) - Lecture slides and materials from Princeton
+- [A Second Course Notes](http://timroughgarden.org/w16/w16.html) - Notes for Stanford CS261
+- [Hacking a Google Interview (MIT)](http://courses.csail.mit.edu/iap/interview/materials.php) - Interview preparation materials
+
+### Books
 * How to Solve It - George Pólya
 * The Art and Craft of Problem Solving - Paul Zeitz
 * Problem-Solving Strategies - Arthur Engel
@@ -258,7 +195,7 @@ title: Resources
 - Concrete Mathematics - Ronald Graham, Donald Knuth, Oren Patashnik
 - An Introduction to Number Theory - Graham Everest, Thomas Ward
 - The Art and Craft of Problem Solving - deep thinking and heuristics.
-- [Competitive Programming](https://cpbook.net/) - comprehensive CP reference by Halim brothers.
+- Competitive Programming](https://cpbook.net/) - comprehensive CP reference by Halim brothers.
 - Programming Challenges - contest-style problems with explanations.
 - [Looking for a Challenge](http://www.lookingforachallengethebook.com/) - hard problems explained clearly.
 - Computational Geometry: Algorithms and Applications - geometry-focused algorithms.
@@ -276,8 +213,8 @@ title: Resources
 - Linear Algebra and Its Applications - theory meets applications.
 - Introduction to Probability - clear introductory probability text.
 - How to Solve It - structured creative problem-solving methods.
-- [Book](http://www.cs.ox.ac.uk/files/2735/Composite_games.pdf) - Composite Mathematical Games.
-- [Book](http://www.math.ucla.edu/~tom/Game_Theory/comb.pdf) - Game Theory By Thomas S. Ferguson.
+- [Composite Gaes](http://www.cs.ox.ac.uk/files/2735/Composite_games.pdf) - Composite Mathematical Games.
+- [Combinational Game Theory](http://www.math.ucla.edu/~tom/Game_Theory/comb.pdf) - Game Theory By Thomas S. Ferguson.
 - [Motwani & Raghavan. Randomized Algorithms](https://www.amazon.com/Randomized-Algorithms-Rajeev-Motwani/dp/0521474655) - A standard classic book.
 - [Mitzenmacher & Upfal. Probability and Computing: Randomization and Probabilistic Techniques in Algorithms and Data Analysis](https://www.amazon.com/Probability-Computing-Randomization-Probabilistic-Techniques-ebook/dp/B06X9YBMFK) - Standard text for probability methods and their applications on randomized algorithms.
 - [Sedgewick & Flajolet. An Introduction to the Analysis of Algorithm](https://www.amazon.com/Introduction-Analysis-Algorithms-Introdu-Algori_p2-ebook/dp/B00B3TB7IQ) - Am advanced complete survey, intended only for the mathematically matured reader.
@@ -302,13 +239,32 @@ title: Resources
 - [Grokking Data Structures](https://www.manning.com/books/grokking-data-structures) - Grokking Data Structures carefully guides you from the most basic data structures like arrays or linked lists all the way to powerful structures like graphs. It’s perfect for beginners.
 - [Algorithms](http://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf)
 - [Algorithms and Data Structures Princeton](https://introcs.cs.princeton.edu/java/40algorithms/)
-### Videos
+
+### Blogs
+- [blog.shahjalalshohag.com](http://blog.shahjalalshohag.com/) - ultimate topic list with tutorials, problems, and templates.
+- [Codeforces Blogs](http://codeforces.com/) - official community blogs and editorials.
+- [Algorithms Weekly](http://petr-mitrichev.blogspot.com/) - high-quality algorithm insights by Petr Mitrichev.
+- [Entropy Always Increases](http://blog.brucemerry.org.za/) - deep technical posts on algorithms and optimization.
+- [Psyho’s Blog](http://psyho.gg/) - advanced contest strategies and problem solving.
+- [Namespace Anudeep ;)](https://blog.anudeep2011.com/) - clear explanations and contest write-ups.
+- [vexorian’s Blog](http://www.vexorian.com/) - classic algorithms and competitive programming topics.
+- [Fushar’s Blog](http://fusharblog.com/) - structured tutorials and problem breakdowns.
+- [WJMZBMR](http://wjmzbmr.com/) (Chinese) - advanced algorithm discussions.
+- [小月的耍廢日誌](http://dreamoon4.blogspot.tw/) (Chinese) - contest write-ups and insights.
+- [Morris’ Blog](http://morris821028.github.io/) (Chinese) - detailed algorithm explanations.
+- [xudyh](http://xudyh.github.io/) (Chinese) - competitive programming tutorials and notes.
+- [Useful Codeforces Blogs](https://codeforces.com/blog/entry/91363) - Curated list of helpful CF blog posts
+- [Helpful Codeforces Extensions](https://codeforces.com/blog/entry/82884) - Useful browser extensions for CF
+- [Stress Testing](https://ali-ibrahim137.github.io/competitive/programming/2020/08/23/Stress-Testing.html) - How to stress‑test your solutions
+- [How to Find a Solution](https://www.topcoder.com/thrive/articles/How%20To%20Find%20a%20Solution) - TopCoder guide to problem‑solving
+- [How to Dissect a TopCoder Problem Statement](https://www.topcoder.com/thrive/articles/How%20To%20Dissect%20a%20Topcoder%20Problem%20Statement%20Content) - Understanding problem statements
+
+### Miscellaneous
 - **[Kunal Kushwaha – Complete DSA Bootcamp](https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ)** - Beginner-friendly, structured DSA playlist covering fundamentals to intermediate concepts with Java focus.
 - **[Errichto](https://www.youtube.com/channel/UCBr_Fu6q9iHYQCh13jmpbrg)** - High-level competitive programming explanations by an IOI gold medalist, focused on thinking and problem solving.
 - **[William Lin](https://www.youtube.com/channel/UCKuDLsO0Wwef53qdHPjbU2Q)** - Advanced CP content from a former world finalist, emphasizing math, optimization, and elegant solutions.
 - **[Gaurav Sen](https://www.youtube.com/channel/UCRPMAqdtSgd0Ipeef7iFsKw)** - Intuitive explanations of algorithms, system design basics, and problem-solving patterns.
 - **[Advanced Competitive Programming Playlist](https://www.youtube.com/playlist?list=PLrS21S1jm43igE57Ye_edwds_iL7ZOAG4)** - In-depth lectures on advanced algorithms and competitive programming techniques.
-- **[Code Monk – HackerEarth](https://www.hackerearth.com/practice/codemonk/)** - Step-by-step competitive programming track covering core data structures and algorithms.
 - **[Stanford CS 97SI: Competitive Programming](http://web.stanford.edu/class/cs97si/)** - University-level course with high-quality slides and curated practice problems.
 - **[How to Win Coding Competitions (ITMO / edX)](https://www.edx.org/course/how-win-coding-competitions-secrets-itmox-i2cpx)** - Strategy-oriented course focusing on how top competitive programmers think.
 - **[CodeChef Indian Programming Camp](https://www.youtube.com/playlist?list=PLi0ZM-RCX5nsTc2Z6woHr5qoF6n3b-thO)** - Recorded lectures from elite programmers applying algorithms to real contest problems.
@@ -325,54 +281,31 @@ title: Resources
 - **[Aleksandar Abas](https://www.youtube.com/channel/UCQ5k0-BMFhfvfJQik1r5ZVw)** - Competitive programming tutorials and contest breakdowns.
 - **[Mostafa Saad Ibrahim](https://www.youtube.com/user/nobody123497)** - Deep algorithm explanations with practical competitive programming focus.
 - **[Tushar Roy](https://www.youtube.com/user/tusharroy2525)** - Clear, interview-oriented explanations of data structures and algorithms.
-### Blogs
-- [blog.shahjalalshohag.com](http://blog.shahjalalshohag.com/) - ultimate topic list with tutorials, problems, and templates.
-- [Codeforces Blogs](http://codeforces.com/) - official community blogs and editorials.
-- [Algorithms Weekly](http://petr-mitrichev.blogspot.com/) - high-quality algorithm insights by Petr Mitrichev.
-- [Entropy Always Increases](http://blog.brucemerry.org.za/) - deep technical posts on algorithms and optimization.
-- [Psyho’s Blog](http://psyho.gg/) - advanced contest strategies and problem solving.
-- [Namespace Anudeep ;)](https://blog.anudeep2011.com/) - clear explanations and contest write-ups.
-- [vexorian’s Blog](http://www.vexorian.com/) - classic algorithms and competitive programming topics.
-- [Fushar’s Blog](http://fusharblog.com/) - structured tutorials and problem breakdowns.
-- [WJMZBMR](http://wjmzbmr.com/) (Chinese) - advanced algorithm discussions.
-- [小月的耍廢日誌](http://dreamoon4.blogspot.tw/) (Chinese) - contest write-ups and insights.
-- [Morris’ Blog](http://morris821028.github.io/) (Chinese) - detailed algorithm explanations.
-- [xudyh](http://xudyh.github.io/) (Chinese) - competitive programming tutorials and notes.
-## Misc
-- [ACM_Notebook_new](https://github.com/ngthanhtrung23/ACM_Notebook_new) - well-organized ICPC notebook by NUS World Finals team.
-- [bcw_codebook](https://github.com/bobogei81123/bcw_codebook) - advanced data structures and algorithms notebook.
-- [acm-icpc-cheat-sheet](https://github.com/foreverbell/acm-icpc-cheat-sheet) - compact notebook with advanced topics.
-- [Igor’s Code Archive](http://shygypsy.com/tools/) - competitive programming notebook by a Google engineer.
-- [Algorithm Visualizer](http://algo-visualizer.jasonpark.me/) - Dozens of animated algorithms (with code), and you can also create your own.
-- [Algorithms Visualization](http://bost.ocks.org/mike/algorithms/) - A dense article on Algorithms Visualization.
-- [Big-O Cheat Sheet](http://bigocheatsheet.com/) - Big-O complexities of common algorithms used in Computer Science.
-- [Code-Drills](https://code-drills.com/tools/comparator) - Practice problems recommender (includes Codeforces, Codechef, and Spoj).
-- [CP-Algorithms](https://cp-algorithms.com/) - Algorithms and data structures are especially popular in the field of competitive programming.
-- [Data Structure Visualizations](http://www.cs.usfca.edu/~galles/visualization/Algorithms.html) - Visualize the behavior of Data Structures and play with its operations.
-- [Geeks for Geeks](http://www.geeksforgeeks.org/fundamentals-of-algorithms/) - Lots and lots of well-explained and implemented algorithms.
-- [Path Finding](https://qiao.github.io/PathFinding.js/visual/) - A visual representation of how algorithms such as A\*, IDA\*, Breadth-First-Search, Best-First-Search, and others describe a path between two points A and B.
-- Easy to follow tutorials on data structures and algorithms along with suitable examples.
-- [Rosetta Code](http://rosettacode.org/wiki/Rosetta_Code) - A programming chrestomathy site that aims to present implementations of many algorithms and data structures in different programming languages.
-- [Sorting Algorithms](http://www.sorting-algorithms.com/) - Nice and simple animations of sorting algorithms. With short codes and discussions.
-- [Stoimen's web log](http://www.stoimen.com/) - Some algorithms nicely explained.
-- [The Sound of Sorting](http://panthema.net/2013/sound-of-sorting/) - The Sound of Sorting - "Audibilization" and Visualization of Sorting Algorithms
-- [VisuAlgo](http://visualgo.net) - Visualising data structures and algorithms through animation.
-- [LearnGraphTheory](https://learngraphtheory.org/) - Interactive Algorithm Visualizer | Graph Theory Learning Platform.
-- [Learnersbucket](https://learnersbucket.com/) - Tutorials on data structures and algorithms in Javascript.
-- [redblobgames](https://www.redblobgames.com/) - interactive visual explanations of math and algorithms, using motivating examples from computer games.
-- [arXiv - Data Structures and Algorithms](https://arxiv.org/list/cs.DS/recent)
-- [List of Algorithms](https://en.wikipedia.org/wiki/List_of_algorithms)
-- [CS 521 - Advanced Algorithm Design](https://www.cs.princeton.edu/courses/archive/fall13/cos521/)
-- [Algorithms Part I](https://www.coursera.org/learn/algorithms-part1)
-- [Algorithms, Part II](https://www.coursera.org/learn/algorithms-part2)
-- [50+ Sorts, Visualized - Swirl Dots](https://www.youtube.com/watch?v=LOZTuMds3LM)
-- [Codeforces Cheator Database](https://cf-cheater-database.vercel.app/)
-- [Entrant Hub](https://entranthub.com/) - for knowing leetcode contest rating in advance and cp calendar
-- [Codeforces Catalog](https://codeforces.com/catalog) - blog and questions
-- [Codeforces Anytime](https://codeforces-anytime.sonoapp.page) - codeforces rating predictor
-- [Codeforces Vizualizer (CFVIZ)](https://cfviz.netlify.app/index.html) - another codeforces rating predictor
-- [Interview Solver](https://interviewsolver.com) - MAANG companies questions list
-- [Prac Hub](https://prachub.com/) - misc interview questions
-- [Blind](https://www.teamblind.com/) - interview experiences
-- [1 Point 3 Acres](https://www.1point3acres.com/interview) - interview experiences
-- [Brain Bashers](https://www.brainbashers.com/puzzles.asp) - brain teasers
+- **[Dynamic Programming Playlist (Aditya Verma)](https://www.youtube.com/playlist?list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go)** - Comprehensive DP tutorial series
+- **[Dynamic Programming Playlist (Tushar Roy)](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)** - Another DP deep‑dive
+- **[MIT 6.006 Introduction to Algorithms (Fall 2011)](https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)** - Classic algorithms course
+- **[MIT 6.006 Introduction to Algorithms (Spring 2020)](https://www.youtube.com/playlist?list=PLUl4u3cNGP63EdVPNLG3ToM6LaEUuStEY)** - Updated version of 6.006
+- **[MIT 6.046J Design and Analysis of Algorithms](https://www.youtube.com/playlist?list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)** - YouTube playlist for the course
+- **[MIT 6.854 Advanced Algorithms](https://www.youtube.com/playlist?list=PL6ogFv-ieghdoGKGg2Bik3Gl1glBTEu8c)** - Advanced algorithm topics
+- **[MIT Advanced Data Structures](https://www.youtube.com/watch?v=T0yzrZL1py0&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=2)** - Advanced data structures lectures
+- **[Harvard COMPSCI 224 Advanced Algorithms](https://www.youtube.com/playlist?list=PL2SOU6wwxB0uP4rJgf5ayhHWgw7akUWSf)** - Harvard’s advanced algorithms course
+- **[Algorithms Specialization (Stanford)](https://www.coursera.org/specializations/algorithms)** - Four‑part algorithms specialization
+- **[A Second Course in Algorithms (Stanford CS261)](https://www.youtube.com/playlist?list=PLEGCF-WLh2RJh2yDxlJJjnKswWdoO8gAc)** - Stanford’s second course in algorithms
+- **[UC Berkeley Data Structures (Spring 2014)](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd)** - Berkeley data structures lectures
+- **[UC Berkeley Data Structures (Fall 2006)](https://archive.org/details/ucberkeley-webcast-PL4BBB74C7D2A1049C)** - Older Berkeley data structures course
+- **[William Fiset DSA](https://www.youtube.com/playlist?list=PLDV1Zeh2NRsB6SWUrDFW2RmDotAfPbeHu)** - Comprehensive DSA playlist with implementations
+- **[Graph Theory Playlist](https://www.youtube.com/user/DrSaradaHerke/playlists)** - Graph theory concepts and problems
+- **[MIT Linear Algebra](https://www.youtube.com/playlist?list=PLE7DDD91010BC51F8)** - Linear algebra course by Gilbert Strang
+- **[MIT Calculus Revisited](https://www.youtube.com/playlist?list=PL3B08AE665AB9002A)** - Calculus refresher
+- **[MIT Mathematics for Computer Science](https://www.youtube.com/playlist?list=PLB7540DEDD482705B)** - Discrete math for CS
+- **[CS50 2020](https://www.youtube.com/playlist?list=PLhQjrBD2T382_R182iC2gNZI9HzWFMC_8)** - Harvard’s intro to CS
+- **[CS50 Web Programming](https://www.youtube.com/playlist?list=PLhQjrBD2T380xvFSUmToMMzERZ3qB5Ueu)** - Web development with Python and JavaScript
+- **[CS106A Programming Methodology](https://see.stanford.edu/Course/CS106A)** - Stanford’s intro programming course
+- **[Programming Paradigms (Stanford)](https://www.youtube.com/playlist?list=PL9D558D49CA734A02)** - Stanford course on programming paradigms
+- **[C Programming Basics](https://www.youtube.com/playlist?list=PLir19lgiavA1ThCmnKO6QJHjSlHGgt553)** - C language fundamentals
+- **[Understanding Computers and the Internet](http://cse1.net/lectures)** - Computer and internet basics
+- **[Nick White](https://www.youtube.com/playlist?list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-)** - Coding interview problem solutions
+- **[Fisher Coder](https://www.youtube.com/FisherCoder)** - Interview prep and algorithm explanations
+- **[IDeserve](https://www.youtube.com/playlist?list=PLamzFoFxwoNjPfxzaWqs7cZGsPYy0x_gI)** - Algorithm visualizations and explanations
+- **[Algorithms, Part I (Princeton)](https://www.coursera.org/learn/algorithms-part1)** - Classic algorithms course by Robert Sedgewick
+- **[Algorithms, Part II (Princeton)](https://www.coursera.org/learn/algorithms-part2)** - Continuation of the Princeton algorithms sequence

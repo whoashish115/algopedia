@@ -2,6 +2,8 @@
 title: Welcome to Algopedia
 ---
 
+![Banner](banner.png)
+
 Hi! I'm **[whoashish115](https://whoashish.com)**, and this is my personal competitive programming wiki.
 
 I built Algopedia to keep everything I learn in one place - from algorithms and data structures to templates, snippets, useful resources, and random tricks that I don't want to forget. Instead of searching the internet for the same things over and over, I can simply come back here.

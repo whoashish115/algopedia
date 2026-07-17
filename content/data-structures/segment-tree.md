@@ -1,12 +1,8 @@
 ---
-tags: [dsa, data-structure, competitive-programming, trees]
-aliases: [Seg Tree, SegTree]
+title: Segment Tree
 ---
-
-# Segment Tree
-
 > [!abstract] What is it?
-> A **Segment Tree** is a binary tree built over an array where every node represents the answer (sum, min, max, gcd, …) for a contiguous **segment/range** of the array. It supports **range queries** and **point/range updates** in `O(log n)`, and generalizes to *any associative operation* — unlike a [[Fenwick Tree (BIT)]], which is restricted mostly to invertible ones.
+> A **Segment Tree** is a binary tree built over an array where every node represents the answer (sum, min, max, gcd, …) for a contiguous **segment/range** of the array. It supports **range queries** and **point/range updates** in `O(log n)`, and generalizes to *any associative operation* - unlike a [[Fenwick Tree (BIT)]], which is restricted mostly to invertible ones.
 
 ## Core idea
 
@@ -20,12 +16,12 @@ aliases: [Seg Tree, SegTree]
 | Operation | Time | Space |
 |---|---|---|
 | Build | O(n) | O(4n) |
-| Point update | O(log n) | — |
-| Range query | O(log n) | — |
-| Range update (no lazy) | O(n) | — |
-| Range update (with lazy propagation) | O(log n) | — |
+| Point update | O(log n) | - |
+| Range query | O(log n) | - |
+| Range update (no lazy) | O(n) | - |
+| Range update (with lazy propagation) | O(log n) | - |
 
-## Reference implementation (uploaded: `segment_tree.cpp`) — Sum Segment Tree
+## Implementation 
 
 ```cpp
 struct SegmentTree {
@@ -70,13 +66,13 @@ struct SegmentTree {
 ```
 
 ### Notes on this implementation
-- `segTree[index] = ...` line is explicitly marked *"change for min / max"* in the source — this is the single line that determines the tree's behavior (sum vs min vs max vs gcd).
+- `segTree[index] = ...` line is explicitly marked *"change for min / max"* in the source - this is the single line that determines the tree's behavior (sum vs min vs max vs gcd).
 - The **no-overlap identity** returned in `querySegTree` must match the operation:
-  - Sum → return `0`
-  - Min → return `LLONG_MAX`
-  - Max → return `LLONG_MIN`
-  - GCD → return `0` (gcd(0, x) = x)
-- 3 cases per recursive call: **no overlap**, **fully inside**, **partial overlap** — this pattern is universal across all segment tree variants below.
+  - Sum $\rightarrow$ return `0`
+  - Min $\rightarrow$ return `LLONG_MAX`
+  - Max $\rightarrow$ return `LLONG_MIN`
+  - GCD $\rightarrow$ return `0` (gcd(0, x) = x)
+- 3 cases per recursive call: **no overlap**, **fully inside**, **partial overlap** - this pattern is universal across all segment tree variants below.
 
 ---
 
@@ -86,7 +82,7 @@ struct SegmentTree {
 - Swap the combine line and the "no overlap" identity as noted above.
 ```cpp
 segTree[index] = min(segTree[2*index], segTree[2*index+1]);
-// no overlap → return LLONG_MAX
+// no overlap $\rightarrow$ return LLONG_MAX
 ```
 - Often paired with **position tracking** (store index of min, not just value) for "find the index of the minimum in range" queries.
 
@@ -126,7 +122,7 @@ void updateRange(int l, int r, int index, int qL, int qR, ll val) {
 - This is the go-to structure for problems like "add v to every element in [l,r], then query range sum" in `O(log n)`.
 
 ### 4. Iterative (Bottom-Up) Segment Tree
-- Non-recursive, array-based, very fast constant factor — but **only supports point update + range query on invertible-friendly, simpler cases** cleanly (sum, min, max without lazy propagation).
+- Non-recursive, array-based, very fast constant factor - but **only supports point update + range query on invertible-friendly, simpler cases** cleanly (sum, min, max without lazy propagation).
 ```cpp
 vector<ll> tree(2 * n);
 void build(vector<ll>& a) {
@@ -150,17 +146,17 @@ ll query(int l, int r) { // [l, r)
 
 ### 5. Merge Sort Tree
 - Each node stores a **sorted vector** of the elements in its range (built via merge during build, like merge sort).
-- Enables queries like "count elements ≤ x in range [l, r]" via binary search at each visited node — `O(log^2 n)` per query.
+- Enables queries like "count elements ≤ x in range [l, r]" via binary search at each visited node - `O(log^2 n)` per query.
 
 ### 6. Persistent Segment Tree
 - Every update creates a **new root** while reusing all unchanged subtrees (only `O(log n)` new nodes per update).
-- Enables querying **any past version** of the array — used for "k-th smallest in range" (with merge sort tree idea + persistence), historical range sums, etc.
+- Enables querying **any past version** of the array - used for "k-th smallest in range" (with merge sort tree idea + persistence), historical range sums, etc.
 
 ### 7. Segment Tree Beats
 - Advanced variant supporting operations like "range chmin" (`a[i] = min(a[i], x)` for a range) combined with range sum queries, amortized `O(log^2 n)`. Tracks max, second-max, and count-of-max per node to know when to stop recursing.
 
 ### 8. 2D Segment Tree / Segment Tree of Segment Trees
-- Outer segment tree over rows, each node holding an inner segment tree over columns — for 2D range queries with updates. Heavier than a 2D BIT but supports non-invertible ops (min/max in 2D).
+- Outer segment tree over rows, each node holding an inner segment tree over columns - for 2D range queries with updates. Heavier than a 2D BIT but supports non-invertible ops (min/max in 2D).
 
 ### 9. Dynamic / Sparse Segment Tree (a.k.a. "Segment Tree on the fly")
 - For huge coordinate ranges (e.g. `1e9`) where you can't allocate `4n` nodes upfront. Nodes are created **on demand** with pointers/indices, keeping memory proportional to the number of updates × log(range).
@@ -171,11 +167,11 @@ vector<Node> tree(1); // tree[0] unused/sentinel
 - Frequently combined with **persistence** for "persistent dynamic segment tree" (common in competitive programming for offline range queries over large value domains).
 
 ### 10. Segment Tree with Coordinate Compression
-- Like the BIT equivalent — compress large/sparse coordinates to a dense range `[0, m)` before building, when the dynamic variant isn't needed (i.e., all queries are known offline).
+- Like the BIT equivalent - compress large/sparse coordinates to a dense range `[0, m)` before building, when the dynamic variant isn't needed (i.e., all queries are known offline).
 
 ---
 
-## Segment Tree vs Fenwick Tree — quick comparison
+## Segment Tree vs Fenwick Tree - quick comparison
 
 | Feature | [[Fenwick Tree (BIT)]] | Segment Tree |
 |---|---|---|

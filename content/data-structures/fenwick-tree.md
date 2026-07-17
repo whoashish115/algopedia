@@ -1,14 +1,11 @@
 ---
-tags: [dsa, data-structure, competitive-programming, trees]
-aliases: [BIT, Binary Indexed Tree, Fenwick]
+title: Fenwick Tree
 ---
-
-# Fenwick Tree (Binary Indexed Tree)
 
 > [!abstract] What is it?
 > A **Fenwick Tree** (a.k.a. **Binary Indexed Tree / BIT**) is a compact array-based data structure that supports **prefix sums** (or any invertible associative operation) in `O(log n)` time per update/query, using only `O(n)` space and a much smaller constant factor than a [[Segment Tree]].
 >
-> It exploits the binary representation of indices: each node `i` is responsible for a range of length `i & (-i)` (the *lowbit* — the value of the lowest set bit).
+> It exploits the binary representation of indices: each node `i` is responsible for a range of length `i & (-i)` (the *lowbit* - the value of the lowest set bit).
 
 ## Core idea
 
@@ -26,12 +23,12 @@ lowbit(i) = i & (-i)   // isolates the lowest set bit
 | Operation | Time | Space |
 |---|---|---|
 | Point update | O(log n) | O(n) |
-| Prefix query | O(log n) | — |
-| Range query (sum) | O(log n) | — |
-| Build (naive, n updates) | O(n log n) | — |
-| Build (O(n) trick) | O(n) | — |
+| Prefix query | O(log n) | - |
+| Range query (sum) | O(log n) | - |
+| Build (naive, n updates) | O(n log n) | - |
+| Build (O(n) trick) | O(n) | - |
 
-## Reference implementation (uploaded: `fenwick_tree.cpp`)
+## Implementation 
 
 ```cpp
 struct Fenwick {
@@ -63,7 +60,7 @@ struct Fenwick {
         return query(r) - query(l - 1);
     }
 
-    // O(n) build — pushes each node's value straight to its parent
+    // O(n) build - pushes each node's value straight to its parent
     static Fenwick build(const vector<long long>& A) {
         int n = (int)A.size() - 1;
         Fenwick f(n);
@@ -78,18 +75,18 @@ struct Fenwick {
 ```
 
 ### What each piece does
-- `update(idx, delta)` — adds `delta` at position `idx`, propagating to all ancestors that "cover" `idx`.
-- `query(idx)` — returns prefix sum `A[1..idx]` by walking down through lowbit jumps.
-- `rangeQuery(l, r)` — classic `query(r) - query(l-1)` trick (only valid for invertible ops like `+`, `xor`).
-- `build(A)` — **O(n)** construction: instead of calling `update` n times (`O(n log n)`), each index pushes its accumulated value forward to `i + lowbit(i)` once. This is the standard linear-time BIT build.
+- `update(idx, delta)` - adds `delta` at position `idx`, propagating to all ancestors that "cover" `idx`.
+- `query(idx)` - returns prefix sum `A[1..idx]` by walking down through lowbit jumps.
+- `rangeQuery(l, r)` - classic `query(r) - query(l-1)` trick (only valid for invertible ops like `+`, `xor`).
+- `build(A)` - **O(n)** construction: instead of calling `update` n times (`O(n log n)`), each index pushes its accumulated value forward to `i + lowbit(i)` once. This is the standard linear-time BIT build.
 
 ---
 
 ## Variations of the Fenwick Tree
 
-### 1. Point Update, Range Query (PURQ) — *the classic, shown above*
+### 1. Point Update, Range Query (PURQ) - *the classic, shown above*
 - Update a single element, query prefix/range sums.
-- Works for any **invertible** group operation: sum, XOR, product-mod-p (with modular inverse). **Does NOT work directly for min/max** (not invertible) — see variation 5.
+- Works for any **invertible** group operation: sum, XOR, product-mod-p (with modular inverse). **Does NOT work directly for min/max** (not invertible) - see variation 5.
 
 ### 2. Range Update, Point Query (RUPQ)
 - Add `delta` to every element in `[l, r]`, query a single point.
@@ -142,7 +139,7 @@ long long query(int x, int y) {
 - Complexity: `O(log n · log m)` per op.
 
 ### 5. Fenwick Tree for Min/Max ("prefix min/max BIT")
-- Regular BIT can't subtract to get ranges (min/max aren't invertible), but you **can** still maintain **prefix min/max** if updates only ever *decrease*/*increase* values (monotonic updates) — no arbitrary range queries.
+- Regular BIT can't subtract to get ranges (min/max aren't invertible), but you **can** still maintain **prefix min/max** if updates only ever *decrease*/*increase* values (monotonic updates) - no arbitrary range queries.
 ```cpp
 void updateMin(int idx, long long val) {
     while (idx <= n) {
@@ -160,10 +157,10 @@ long long queryMin(int idx) { // only prefix, from idx down to 1 via a *differen
 }
 ```
 > [!warning]
-> True arbitrary range-min queries need a [[Segment Tree]] (or Sparse Table for static arrays) — BIT min/max only gives you prefix semantics with restrictions.
+> True arbitrary range-min queries need a [[Segment Tree]] (or Sparse Table for static arrays) - BIT min/max only gives you prefix semantics with restrictions.
 
 ### 6. BIT with Binary Search ("Fenwick walk" / find k-th element)
-- Finds the smallest index whose prefix sum ≥ `k` in `O(log n)`, without a separate `query` per step — useful for **order statistics**, **k-th smallest with updates**, **counting inversions**.
+- Finds the smallest index whose prefix sum ≥ `k` in `O(log n)`, without a separate `query` per step - useful for **order statistics**, **k-th smallest with updates**, **counting inversions**.
 ```cpp
 int findKth(long long k) {
     int pos = 0;
@@ -183,24 +180,6 @@ int findKth(long long k) {
 - Not a structural variant but a common pairing: when values/queries span a huge range, **coordinate-compress** first, then BIT operates over compressed indices. Common in "count smaller elements after self", inversion counting, etc.
 
 ### 8. Persistent Fenwick Tree
-- Each update creates a new "version" (via persistent array techniques or a BIT-of-versions) — lets you query historical prefix sums. Rare; usually a persistent [[Segment Tree]] is preferred instead since BIT persistence is awkward.
+- Each update creates a new "version" (via persistent array techniques or a BIT-of-versions) - lets you query historical prefix sums. Rare; usually a persistent [[Segment Tree]] is preferred instead since BIT persistence is awkward.
 
 ---
-
-## Fenwick vs Segment Tree — quick comparison
-
-| Feature | Fenwick Tree | [[Segment Tree]] |
-|---|---|---|
-| Code complexity | Very simple | More boilerplate |
-| Memory | `O(n)` | `O(4n)` typical |
-| Supports | Invertible ops (sum, xor) natively | Any associative op (min, max, gcd, sum...) |
-| Range update + range query | Needs 2 BITs (trick) | Native w/ lazy propagation |
-| Non-invertible ops (min/max) | Awkward / limited | Native |
-| Constant factor | Smaller, faster in practice | Slightly larger |
-| Conceptual model | Bit manipulation over indices | Explicit binary tree over ranges |
-
-## See also
-- [[Segment Tree]]
-- Coordinate compression
-- Order statistics / k-th order statistic
-- Inversion counting

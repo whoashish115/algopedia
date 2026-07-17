@@ -1,7 +1,7 @@
 ---
-title: Base
-
+title: General
 ---
+
 Using prime factorization, any number $N$ can be represented as:
 $$N = p_1^{e_1} \cdot p_2^{e_2} \cdots p_k^{e_k}$$
 where $p_i$ are distinct prime factors and $e_i$ are their respective powers.

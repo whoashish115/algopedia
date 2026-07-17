@@ -5,5 +5,5 @@ or `1U << i` instead. This single mistake causes a huge fraction of
 
 Careful: right shift on a negative *signed* integer is
 implementation-defined/arithmetic (it typically sign-extends, filling
-with `1`s from the left rather than `0`s) — this matters for negative
+with `1`s from the left rather than `0`s) - this matters for negative
 numbers, but not for the unsigned/non-negative case.

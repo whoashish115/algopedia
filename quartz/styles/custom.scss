@@ -68,29 +68,41 @@
     fill: var(--dark) !important; 
   }
 }
+article h1,
+article h2 {
+  position: relative;
+  color: var(--secondary) !important;
+  text-decoration: underline;
+  text-underline-offset: 0.3em;
+  text-decoration-thickness: 2px;
 
-
-
-article a,
-footer a,
-h3 a,
-h4 a,
-h5 a,
-h6 a {
-  color: var(--secondary);
-  font-weight: 600;
-  text-decoration: none;
-
-  border-bottom: 0.1rem solid var(--secondary);
+  padding-left: 1.5em;
 }
 
+article h1::before,
+article h2::before {
+  content: "🥏";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  text-decoration: none;
+}
+
+article h1 > a,
+article h2 > a,
+article h3 > a,
+article h4 > a,
+article h5 > a,
+article h6 > a {
+  color: inherit !important;
+  background: none !important;
+}
+
+
+
 article a:hover,
-footer a:hover,
-h2 a:hover,
-h3 a:hover,
-h4 a:hover,
-h5 a:hover,
-h6 a:hover {
+footer a:hover {
   color: var(--tertiary);
   border-color: var(--tertiary);
 }

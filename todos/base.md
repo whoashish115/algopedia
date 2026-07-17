@@ -103,7 +103,7 @@ title: Base
 | Pointer | `T*` | 4 B (32-bit)<br>8 B (64-bit) | Memory address |
 | Reference | `T&` | Same as pointer | Alias to an object |
 | Null Pointer | `std::nullptr_t` | Same as pointer | `nullptr` |
-| Empty Type | `void` | — | No value |
+| Empty Type | `void` | - | No value |
 
 ## Constants
 
