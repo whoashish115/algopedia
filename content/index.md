@@ -2,7 +2,7 @@
 title: Welcome to Algopedia
 ---
 
-![Banner](banner.png)
+![Banner](https://images8.alphacoders.com/904/thumb-1920-904024.jpg)
 
 Hi! I'm **[whoashish115](https://whoashish.com)**, and this is my personal competitive programming wiki.
 
