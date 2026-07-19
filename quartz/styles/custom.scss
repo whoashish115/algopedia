@@ -4,39 +4,38 @@
 .page>#quartz-body .page-header {
     margin: 4rem 0 0;
 }
-
+@media (max-width: 800px) {
+    .page>#quartz-body .page-header {
+        margin-top: 0;
+        padding: 0;
+    }
+}
 .page>#quartz-body .sidebar, .page>#quartz-body .sidebar{
     padding-top: 4rem;
     padding-bottom: 4rem;
+}
+@media (max-width: 800px) {
+      .page>#quartz-body .sidebar.left:has(.explorer) {
+                box-sizing: border-box;
+        margin: 0;
+        padding: 1rem 0;
+        position: sticky;
+    }
 }
 
 .right.sidebar {
     padding-right: 0.5rem;
     scrollbar-width: thin;
 }
-
-.toc{
-    height: 100% !important;
-
-
-}
-
 .left.sidebar,
 .right.sidebar {
-    overflow-y: auto;
-    height: 100vh;
-
-    /* Firefox */
     scrollbar-width: none;
-
-    /* IE/old Edge */
     -ms-overflow-style: none;
 }
 .left.sidebar::-webkit-scrollbar,
 .right.sidebar::-webkit-scrollbar {
     display: none;
 }
-
 .note-properties-tags{
     flex-wrap: wrap;
     gap:6px 0px;
