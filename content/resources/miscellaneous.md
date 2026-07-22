@@ -1,0 +1,53 @@
+---
+title: Miscellaneous
+---
+
+- **[Kunal Kushwaha - Complete DSA Bootcamp](https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ)** - Beginner-friendly, structured DSA playlist covering fundamentals to intermediate concepts with Java focus.
+- **[Errichto](https://www.youtube.com/channel/UCBr_Fu6q9iHYQCh13jmpbrg)** - High-level competitive programming explanations by an IOI gold medalist, focused on thinking and problem solving.
+- **[William Lin](https://www.youtube.com/channel/UCKuDLsO0Wwef53qdHPjbU2Q)** - Advanced CP content from a former world finalist, emphasizing math, optimization, and elegant solutions.
+- **[Gaurav Sen](https://www.youtube.com/channel/UCRPMAqdtSgd0Ipeef7iFsKw)** - Intuitive explanations of algorithms, system design basics, and problem-solving patterns.
+- **[Advanced Competitive Programming Playlist](https://www.youtube.com/playlist?list=PLrS21S1jm43igE57Ye_edwds_iL7ZOAG4)** - In-depth lectures on advanced algorithms and competitive programming techniques.
+- **[Stanford CS 97SI: Competitive Programming](http://web.stanford.edu/class/cs97si/)** - University-level course with high-quality slides and curated practice problems.
+- **[How to Win Coding Competitions (ITMO / edX)](https://www.edx.org/course/how-win-coding-competitions-secrets-itmox-i2cpx)** - Strategy-oriented course focusing on how top competitive programmers think.
+- **[CodeChef Indian Programming Camp](https://www.youtube.com/playlist?list=PLi0ZM-RCX5nsTc2Z6woHr5qoF6n3b-thO)** - Recorded lectures from elite programmers applying algorithms to real contest problems.
+- **[Reykjavik University Competitive Programming Course](https://algo.is/competitive-programming-course/)** - Clean slides and problem sets taught by an experienced competitive programmer.
+- **[NCTU Problem Solving & Programming Techniques](https://sites.google.com/site/mzshieh/courses/problem-solving-and-programming-techniques-spring-2014)** - Foundational problem-solving course with strong theoretical grounding.
+- **[Arabic Competitive Programming Materials](https://github.com/mostafa-saad/ArabicCompetitiveProgramming)** - Broad collection of slides and implementations covering many CP topics.
+- **[Awesome Algorithms Courses](https://github.com/prakhar1989/awesome-courses#algorithms)** - Curated list of top algorithm courses from MIT, Stanford, Berkeley, and more.
+- **[MIT 6.046J - Introduction to Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-introduction-to-algorithms-sma-5503-fall-2005/)** - Rigorous algorithms course by Leiserson and Demaine with excellent lectures and notes.
+- **[Petr Mitrichev](https://www.youtube.com/channel/UCdmeooqNtlN7IhrKlq7hGDA)** - Advanced contest analysis and deep algorithmic insights.
+- **[Egor Kulikov](https://www.youtube.com/channel/UCjlLfxSPkYluCDetlwbLpjQ)** - Educational streams and explanations for competitive programming contests.
+- **[Adam Bardashevich](https://www.youtube.com/channel/UCc4jWVeWjUfpUo8z4PHfopw)** - Competitive programming content focused on contests and solution ideas.
+- **[Bohdan Pryshchenko](https://www.twitch.tv/lebron_stream)** - Live competitive programming streams with real-time problem solving.
+- **[Vladimir Smykalov](https://www.youtube.com/channel/UCWEVsnIXiD5mgWM0LFwZBzA)** - Contest streams and algorithm discussions from an experienced CP participant.
+- **[Aleksandar Abas](https://www.youtube.com/channel/UCQ5k0-BMFhfvfJQik1r5ZVw)** - Competitive programming tutorials and contest breakdowns.
+- **[Mostafa Saad Ibrahim](https://www.youtube.com/user/nobody123497)** - Deep algorithm explanations with practical competitive programming focus.
+- **[Tushar Roy](https://www.youtube.com/user/tusharroy2525)** - Clear, interview-oriented explanations of data structures and algorithms.
+- **[Dynamic Programming Playlist (Aditya Verma)](https://www.youtube.com/playlist?list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go)** - Comprehensive DP tutorial series
+- **[Dynamic Programming Playlist (Tushar Roy)](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)** - Another DP deep‑dive
+- **[MIT 6.006 Introduction to Algorithms (Fall 2011)](https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)** - Classic algorithms course
+- **[MIT 6.006 Introduction to Algorithms (Spring 2020)](https://www.youtube.com/playlist?list=PLUl4u3cNGP63EdVPNLG3ToM6LaEUuStEY)** - Updated version of 6.006
+- **[MIT 6.046J Design and Analysis of Algorithms](https://www.youtube.com/playlist?list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)** - YouTube playlist for the course
+- **[MIT 6.854 Advanced Algorithms](https://www.youtube.com/playlist?list=PL6ogFv-ieghdoGKGg2Bik3Gl1glBTEu8c)** - Advanced algorithm topics
+- **[MIT Advanced Data Structures](https://www.youtube.com/watch?v=T0yzrZL1py0&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=2)** - Advanced data structures lectures
+- **[Harvard COMPSCI 224 Advanced Algorithms](https://www.youtube.com/playlist?list=PL2SOU6wwxB0uP4rJgf5ayhHWgw7akUWSf)** - Harvard’s advanced algorithms course
+- **[Algorithms Specialization (Stanford)](https://www.coursera.org/specializations/algorithms)** - Four‑part algorithms specialization
+- **[A Second Course in Algorithms (Stanford CS261)](https://www.youtube.com/playlist?list=PLEGCF-WLh2RJh2yDxlJJjnKswWdoO8gAc)** - Stanford’s second course in algorithms
+- **[UC Berkeley Data Structures (Spring 2014)](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd)** - Berkeley data structures lectures
+- **[UC Berkeley Data Structures (Fall 2006)](https://archive.org/details/ucberkeley-webcast-PL4BBB74C7D2A1049C)** - Older Berkeley data structures course
+- **[William Fiset DSA](https://www.youtube.com/playlist?list=PLDV1Zeh2NRsB6SWUrDFW2RmDotAfPbeHu)** - Comprehensive DSA playlist with implementations
+- **[Graph Theory Playlist](https://www.youtube.com/user/DrSaradaHerke/playlists)** - Graph theory concepts and problems
+- **[MIT Linear Algebra](https://www.youtube.com/playlist?list=PLE7DDD91010BC51F8)** - Linear algebra course by Gilbert Strang
+- **[MIT Calculus Revisited](https://www.youtube.com/playlist?list=PL3B08AE665AB9002A)** - Calculus refresher
+- **[MIT Mathematics for Computer Science](https://www.youtube.com/playlist?list=PLB7540DEDD482705B)** - Discrete math for CS
+- **[CS50 2020](https://www.youtube.com/playlist?list=PLhQjrBD2T382_R182iC2gNZI9HzWFMC_8)** - Harvard’s intro to CS
+- **[CS50 Web Programming](https://www.youtube.com/playlist?list=PLhQjrBD2T380xvFSUmToMMzERZ3qB5Ueu)** - Web development with Python and JavaScript
+- **[CS106A Programming Methodology](https://see.stanford.edu/Course/CS106A)** - Stanford’s intro programming course
+- **[Programming Paradigms (Stanford)](https://www.youtube.com/playlist?list=PL9D558D49CA734A02)** - Stanford course on programming paradigms
+- **[C Programming Basics](https://www.youtube.com/playlist?list=PLir19lgiavA1ThCmnKO6QJHjSlHGgt553)** - C language fundamentals
+- **[Understanding Computers and the Internet](http://cse1.net/lectures)** - Computer and internet basics
+- **[Nick White](https://www.youtube.com/playlist?list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-)** - Coding interview problem solutions
+- **[Fisher Coder](https://www.youtube.com/FisherCoder)** - Interview prep and algorithm explanations
+- **[IDeserve](https://www.youtube.com/playlist?list=PLamzFoFxwoNjPfxzaWqs7cZGsPYy0x_gI)** - Algorithm visualizations and explanations
+- **[Algorithms, Part I (Princeton)](https://www.coursera.org/learn/algorithms-part1)** - Classic algorithms course by Robert Sedgewick
+- **[Algorithms, Part II (Princeton)](https://www.coursera.org/learn/algorithms-part2)** - Continuation of the Princeton algorithms sequence

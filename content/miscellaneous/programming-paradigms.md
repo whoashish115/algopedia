@@ -38,7 +38,7 @@ title: Programming Paradigms
 
 - **Structured Programming**
   - Core idea: a discipline within the imperative paradigm restricting control flow to three constructs — sequence, selection (if/else), and iteration (loops) — eliminating unstructured `goto` jumps.
-  - Mechanism: enforced by block-structured syntax; every control construct has a single entry and single exit point (the Böhm–Jacopini theorem shows any computable function can be expressed this way).
+  - Mechanism: enforced by block-structured syntax; every control construct has a single entry and single exit point (the Böhm-Jacopini theorem shows any computable function can be expressed this way).
   - Iconic reference: Dijkstra's "Go To Statement Considered Harmful"; ALGOL, Pascal, C.
   - When to use: essentially always, as a baseline discipline underneath every other paradigm — less a "choice" today than an assumed default.
   - Trade-offs: dramatically improves readability and provability over raw jump-based code, at the negligible cost of occasional verbosity versus a well-placed early exit.

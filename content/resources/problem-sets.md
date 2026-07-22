@@ -1,0 +1,106 @@
+---
+title: Problem Sets
+---
+
+- [Codeforces](http://codeforces.com/contests) - Main contest platform with rating and problem archive
+- [Codeforces Gyms](https://codeforces.com/gyms) - Training contests and past ICPC regionals
+- [Leetcode](https://leetcode.com) - Interview‑focused problems and weekly contests
+- [SPOJ](https://www.spoj.com/) - Classic algorithmic problem archive
+- [TLE Elementor](https://tle-eliminators.com/cp-sheet) - Curated competitive programming sheet
+- [GeeksforGeeks](https://www.geeksforgeeks.org/) - CS theory and coding problems
+- [Striver A‑Z DSA Sheet](https://takeuforward.org/dsa/strivers-a2z-sheet-learn-dsa-a-to-z) - Complete DSA roadmap
+- [TopH](https://toph.co/) - Bangladeshi online judge with regular contests
+- [CSES Problem Set](https://cses.fi/problemset/) - Well‑known algorithm problem set
+- [Codewars](https://www.codewars.com/) - Rank‑based coding challenges in many languages
+- [HackerEarth](https://www.hackerearth.com) - Practice problems and monthly challenges
+- [Light OJ](https://lightoj.com/) - Beginner‑friendly problem archive
+- [OJ.uz](https://oj.uz/problems) - Collection of past olympiad problems
+- [ICPC Past Problems](https://icpc.global/worldfinals/past-problems) - Archive of past ICPC finals problems
+- [TopCoder](https://www.topcoder.com/) - SRMs and marathon matches (platform)
+- [HackerRank](https://www.hackerrank.com/dashboard) - Skill‑based coding challenges
+- [Project Euler](https://projecteuler.net/) - Math‑oriented programming problems
+- [AtCoder](https://atcoder.jp/contests/) - Japanese contest platform (regular contests)
+- [Google Coding Competition Archive](https://github.com/google/coding-competitions-archive) - Past problems from Google contests (archive only)
+- [ACM Timus](https://acm.timus.ru/problemset.aspx) - Ural Federal University problem set
+- [ACM HDU](http://acm.hdu.edu.cn/) - Hangzhou Dianzi University online judge
+- [Aizu Online Judge](http://judge.u-aizu.ac.jp/onlinejudge/index.jsp) - Japanese university OJ
+- [POJ](http://poj.org/) - Peking University problem archive
+- [UVa Online Judge](https://uva.onlinejudge.org/) - Classic OJ with huge problem set
+- [CS Academy](https://csacademy.com) - Interactive contests and graph editor (platform)
+- [CodeChef](https://www.codechef.com) - Monthly long challenges and cook‑offs (platform)
+- [Libre OJ](https://loj.ac/p) - Chinese OJ with competitive problems
+- [Luogu](https://www.luogu.com.cn/problem/list) - Large Chinese CP community
+- [BZOJ](https://www.bzoj.cn/home) - Advanced Chinese OJ
+- [Dark BZOJ](https://darkbzoj.cc/) - Mirror of BZOJ
+- [Hydro](https://hydro.ac/) - Modern multi‑language OJ platform
+- [Nowcoder](https://ac.nowcoder.com) - Chinese OJ with contests
+- [DMOJ](https://dmoj.ca) - Canadian OJ used for many contests
+- [Newton School](https://my.newtonschool.co) - CP problems for learning
+- [RoboContest](https://robocontest.uz) - Uzbek online judge
+- [Eolymp Basecamp](https://basecamp.eolymp.com) - Collection of olympiad problems
+- [Code360 by Naukri](https://www.naukri.com/code360) - Interview prep and coding problems
+- [TLX](https://tlx.toki.id) - Indonesian OJ for competitions
+- [PrepBytes MyCode](https://mycode.prepbytes.com) - Placement practice problems
+- [UOJ](https://uoj.ac) - Universal Online Judge (Chinese)
+- [KEP](https://kep.uz) - Uzbek educational OJ
+- [BestCoder](http://bestcoder.hdu.edu.cn) - HDU weekly contest platform
+- [Open Kattis](https://open.kattis.com) - Contest platform used in many universities
+- [Cups.Online](https://cups.online) - Russian contest platform (Moscow workshops)
+- [ACMP](https://acmp.ru) - Russian OJ for school and university
+- [BinarySearch](https://binarysearch.com) - Live coding interview practice
+- [ITMO School Contests](https://nerc.itmo.ru/school) - NEERC school contest archive
+- [Beecrowd](https://judge.beecrowd.com) - Brazilian OJ (formerly URI)
+- [ACM Ural](https://acmu.ru) - Russian Ural contests
+- [NEERC Archive](https://nerc.itmo.ru) - Northern Eurasia contest archive
+- [DL GSU](https://dl.gsu.by) - Belarusian OJ
+- [CodeDrills](https://codedrills.io) - ICPC‑style contest platform
+- [Universal Cup](https://ucup.ac) - Team contest series (platform - the competition itself is listed below)
+- [AlgoTester](https://algotester.com) - Ukrainian algorithmic contests (platform)
+- [Yukicoder](https://yukicoder.me) - Japanese OJ for competitive programming
+- [Kattis](https://kattis.com) - Main Kattis problem archive
+- [COCI](https://hsin.hr/coci) - Croatian Open Competition in Informatics (archive)
+- [ACM BSU](https://acm.bsu.by) - Belarusian State University contest archive
+- [Inf‑Open](https://inf-open.ru) - Russian informatics open contest archive
+- [Petrozavodsk Camp](https://camp.icpc.petrsu.ru) - High‑level training camp (practice)
+- [SnarkNews Contests](https://contests.snarknews.info) - Contest archive
+- [AlgoLeague](https://algoleague.com) - Algorithmic league platform
+- [Potyczki Algorytmiczne](https://potyczki.mimuw.edu.pl) - Polish algorithmic contest platform
+- [AlgoGE](https://algoge.com) - Algerian CP platform
+- [IOI Statistics](https://stats.ioinformatics.org) - IOI problem statistics
+- [Yandex Contest](https://contest.yandex.ru) - General Yandex contest archive
+- [ACM BSUIR](https://acm.bsuir.by) - BSUIR open contest archive
+- [AZSPCS](https://azspcs.com) - Puzzle contest archive
+- [UCLA CodeSprint](https://codesprintla.uclaacm.com) - UCLA ACM competition (archive)
+- [BSUIR Contest](https://contest.bsuir.by) - BSUIR contest system
+- [Sort‑Me](https://sort-me.org) - French CP platform
+- [SupeCoder](https://supecoder.dev) - Spanish/Portuguese coding contests (platform)
+- [Innopolis PCMS](https://pcms.university.innopolis.ru) - Innopolis contest system
+- [Kilonova](https://kilonova.ro) - Romanian OJ
+- [ITMO Trains](https://nerc.itmo.ru/trains) - ITMO training contest archive
+- [MIPT Edu](https://it-edu.mipt.ru) - MIPT educational contests
+- [Teamscode](https://teamscode.org) - High school contest platform
+- [COJ](http://coj.uci.cu) - Caribbean Online Judge
+- [PetrSU ACM](https://acm.petrsu.ru) - Petrozavodsk State University contest archive
+- [MITIT](https://mitit.org) - MITIT contest archive
+- [Informatics MCCME](http://informatics.mccme.ru) - Moscow State informatics archive
+- [Calico](https://calico.cs.berkeley.edu) - UC Berkeley Calico contest archive
+- [Contest Pizza](https://contest.pizza) - Fun contest platform
+- [Cereal Codes](https://cerealcodes.org) - Cereal Codes contest platform
+- [Constructor University](https://constructor.university) - Constructor University contest archive
+- [Solved.ac](https://solved.ac) - Korean rating system for BOJ problems
+- [Solve.by](https://solve.by) - Belarusian solve platform
+- [Algo Muse](http://www.algomuse.appspot.com) - Research-based algorithmic problems.
+- [Baekjoon Online Judge](https://www.acmicpc.net/) - Korean Online Judge. 10000+ problems. Supports 60+ languages.
+- [CodeMarshal](https://algo.codemarshal.org/) - Real-world contests online!
+- [HiHoCoder](http://hihocoder.com/) - Chinese and English problem-solving practice and recruitment challenge site.
+- [Infoarena](http://www.infoarena.ro/) - Romanian Online Judge. 1500+ algorithmic problems
+- [LavidaOnlineJudge](http://judge.lavida.us) - Korean Online Judge(Half English). 1300+ problems.
+- [ShareCode.io ](https://sharecode.io/) - Online Judge and contest host with a lot of algorithmic problems in the archive to practice.
+- [Rosalind](http://rosalind.info/)
+- [Online Math Contest](https://onlinemathcontest.com/)
+- [RepoVive](https://repovive.com)
+- [Advent of Code](https://adventofcode.com)
+
+- [Problems That Will Make You Learn Something New](https://docs.google.com/spreadsheets/d/15CK3SvWQqck-KVU6z9zVJoW0-Rikylapw9v8eXxVDGo/edit#gid=0) - Curated list of problems that teach new concepts
+- [Codeforces Topic-wise Questions Sheet](https://takeuforward.org/interview-experience/strivers-cp-sheet/?utm_source=youtube&utm_medium=striver&utm_campaign=yt_video) - Topic‑wise CP sheet
+- [LeetCode Topic-wise Questions Sheet](https://github.com/kunal-kushwaha/DSA-Bootcamp-Java/tree/main/assignments) - Topic‑wise assignments from Kunal's DSA bootcamp

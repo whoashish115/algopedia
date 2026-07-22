@@ -42,7 +42,7 @@ $$
 
 ## Computing nCr Fast, Modulo a Prime
 
-For $n$ up to $10^6$–$10^7$: precompute factorials and inverse factorials mod $\text{MOD}$, then answer each query in $O(1)$. (See **Modular Arithmetic** for the standalone `modinv` / `modpow` building blocks.)
+For $n$ up to $10^6$-$10^7$: precompute factorials and inverse factorials mod $\text{MOD}$, then answer each query in $O(1)$. (See **Modular Arithmetic** for the standalone `modinv` / `modpow` building blocks.)
 
 $$
 fact[0] = 1, \qquad fact[i] = fact[i-1]\cdot i \bmod \text{MOD}.

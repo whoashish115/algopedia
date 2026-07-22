@@ -1,0 +1,34 @@
+---
+title: Tools
+---
+- [Big-O Cheatsheet](https://www.bigocheatsheet.com/) - Time complexity reference  
+- [CP-Algorithms](https://cp-algorithms.com) - Detailed algorithms and data structures  
+- [clist.by](http://clist.by/) - Aggregates upcoming contests from all judges  
+- [monkeytype.com](http://monkeytype.com/) - Typing practice for faster coding  
+- [eolymp.com](http://eolymp.com/) - Collection of problems from CP olympiads  
+- [Awesome CP Projects](https://awesome-cp-projects.github.io/) - Curated CP tools and resources  
+- [Polygon](https://polygon.codeforces.com/) - Platform for creating contest problems  
+- [Graph Editor](https://csacademy.com/app/graph_editor/) - Visualize and edit graphs online  
+- [Virtual Judge](http://vjudge.net) - Host virtual contests using multiple OJs  
+- [VisuAlgo](https://visualgo.net/) - Algorithm and data structure visualizations  
+- [OEIS](https://oeis.org/) - Database of integer sequences  
+- [NIST DADS](https://xlinux.nist.gov/dads/) - Dictionary of algorithms and data structures  
+- [Solved.ac](https://solved.ac) - Rating and statistics for BOJ problems  
+- [CPHOF](https://cphof.org) - Codeforces performance hall of fame (stats)  
+- [IOI Statistics](https://stats.ioinformatics.org) - IOI medal and problem statistics  
+- [USACO Guide](https://usaco.guide) - Free USACO training resources
+- [List of Algorithms](https://en.wikipedia.org/wiki/List_of_algorithms) 
+- [CS 521 - Advanced Algorithm Design](https://www.cs.princeton.edu/courses/archive/fall13/cos521/)
+- [Codeforces Cheator Database](https://cf-cheater-database.vercel.app/)
+- [Entrant Hub](https://entranthub.com/)
+- [Codeforces Catalog](https://codeforces.com/catalog)
+- [Codeforces Anytime](https://codeforces-anytime.sonoapp.page)
+- [Codeforces Vizualizer (CFVIZ)](https://cfviz.netlify.app/index.html)
+- [Prac Hub](https://prachub.com/)
+- [Virtual Judge](http://vjudge.net) - Host virtual contests using multiple OJs
+- [The Ultimate Topic List](https://youkn0wwho.academy/topic-list) - Comprehensive list of CP topics with problem references
+- [Getting into Competitive Programming](https://github.com/the-hyp0cr1t3/CC) - Comprehensive CP resource repo
+- [Competitive Programming Beginner Topics](https://github.com/the-hyp0cr1t3/CC/tree/master/Beginner%20Topics) - Beginner topic collection
+- [Algorithms Princeton Lectures](https://algs4.cs.princeton.edu/lectures/) - Lecture slides and materials from Princeton
+- [A Second Course Notes](http://timroughgarden.org/w16/w16.html) - Notes for Stanford CS261
+- [Hacking a Google Interview (MIT)](http://courses.csail.mit.edu/iap/interview/materials.php) - Interview preparation materials

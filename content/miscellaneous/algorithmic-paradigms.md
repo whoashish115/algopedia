@@ -132,7 +132,7 @@ title: Algorithmic Paradigms
 - **Bitmask Enumeration and Bit Manipulation Techniques**
   - Core idea: represent subsets, states, or configurations as integers and use bitwise operations for fast enumeration and transition.
   - Mechanism: iterate `mask` from $0$ to $2^n-1$ to enumerate subsets; iterate submasks of a mask in $O(3^n)$ total via `for (int sub = mask; sub; sub = (sub-1) & mask)`; use `__builtin_popcount`, XOR tricks, and Gray codes for efficient state transitions.
-  - Iconic problems: Traveling Salesman via DP over subsets (Held–Karp), Sum over Subsets (SOS) DP, assignment problems, bitmask DP on small $n$ (typically $n \leq 20$–$25$).
+  - Iconic problems: Traveling Salesman via DP over subsets (Held-Karp), Sum over Subsets (SOS) DP, assignment problems, bitmask DP on small $n$ (typically $n \leq 20$-$25$).
   - When to use: DP or search where the state includes "which elements have been used" and $n$ is small.
   - Trade-offs: exponential in $n$ by construction; fast constant factors make it practical exactly where asymptotically "better" methods are overkill.
   ```cpp
@@ -224,7 +224,7 @@ title: Algorithmic Paradigms
 - **Dynamic Programming**
   - Core idea: solve optimization/counting problems with optimal substructure and overlapping subproblems by solving each distinct subproblem once and reusing the result.
   - Mechanism: define the state, define the transition (recurrence), fix base cases, choose iteration order (bottom-up table) or recursion with caching (top-down / Memoization).
-  - Iconic problems: 0/1 Knapsack, Longest Common Subsequence, Edit Distance, Matrix Chain Multiplication, digit DP, bitmask DP (Held–Karp TSP), tree DP.
+  - Iconic problems: 0/1 Knapsack, Longest Common Subsequence, Edit Distance, Matrix Chain Multiplication, digit DP, bitmask DP (Held-Karp TSP), tree DP.
   - When to use: optimization over sequences, subsets, intervals, or trees where naive recursion recomputes the same subproblem exponentially many times.
   - Trade-offs: state design is the crux of the paradigm — a poorly chosen state either misses transitions or blows up in dimensionality; space is often optimizable by keeping only the last one or two DP layers.
 
@@ -257,7 +257,7 @@ title: Algorithmic Paradigms
 
 - **Network Flow Paradigm**
   - Core idea: model a problem as flow through a capacitated directed graph and exploit the Max-Flow Min-Cut theorem to solve seemingly unrelated combinatorial problems.
-  - Mechanism: construct a flow network (source, sink, capacities); run Ford–Fulkerson / Edmonds–Karp ($O(VE^2)$) or Dinic's Algorithm ($O(V^2E)$); read the answer off the max flow or min cut.
+  - Mechanism: construct a flow network (source, sink, capacities); run Ford-Fulkerson / Edmonds-Karp ($O(VE^2)$) or Dinic's Algorithm ($O(V^2E)$); read the answer off the max flow or min cut.
   - Iconic problems: Bipartite Matching, Project Selection, image segmentation (min-cut), edge/vertex disjoint paths, circulation with lower bounds.
   - When to use: whenever a problem can be phrased as "how much can flow from A to B" or "what's the cheapest way to separate A from B."
   - Trade-offs: the hardest part is usually the modeling (constructing the right graph), not the flow algorithm itself.
@@ -266,7 +266,7 @@ title: Algorithmic Paradigms
 
 - **Randomized Algorithms**
   - Core idea: use random choices during execution to avoid worst-case adversarial inputs, simplify design, or achieve good expected performance.
-  - Mechanism: **Las Vegas** algorithms are always correct with randomized running time (randomized QuickSort); **Monte Carlo** algorithms have bounded running time with randomized correctness (Miller–Rabin primality).
+  - Mechanism: **Las Vegas** algorithms are always correct with randomized running time (randomized QuickSort); **Monte Carlo** algorithms have bounded running time with randomized correctness (Miller-Rabin primality).
   - Iconic problems: randomized QuickSort ($O(n \log n)$ expected), randomized hashing, Karger's Min-Cut algorithm, skip lists.
   - When to use: to defeat adversarial worst-case inputs, or when a simple randomized algorithm is far easier to design than a matching deterministic one.
   - Trade-offs: correctness or running time becomes probabilistic — error must be quantified and, if needed, amplified by repetition. See [[complexity-theory|Complexity Theory]] for BPP, RP, ZPP.
@@ -282,7 +282,7 @@ title: Algorithmic Paradigms
 - **Approximation Algorithms**
   - Core idea: for NP-Hard optimization problems, trade guaranteed optimality for a provable closeness bound, computed in polynomial time.
   - Mechanism: approximation ratio $\alpha$ — for minimization, returned cost $\leq \alpha \cdot OPT$; for maximization, returned value $\geq \alpha \cdot OPT$.
-  - Iconic problems: Vertex Cover ($2$-approximation), metric TSP ($3/2$-approximation via Christofides), Set Cover ($O(\log n)$-approximation), Max Cut ($0.878$-approximation, Goemans–Williamson).
+  - Iconic problems: Vertex Cover ($2$-approximation), metric TSP ($3/2$-approximation via Christofides), Set Cover ($O(\log n)$-approximation), Max Cut ($0.878$-approximation, Goemans-Williamson).
   - When to use: NP-Hard problems at scale where an exact algorithm is infeasible but a certified quality bound is required.
   - Trade-offs: designing a good approximation is often as hard as the original problem's theory; see [[complexity-theory|Complexity Theory]] for PTAS/FPTAS and inapproximability results.
 
@@ -463,9 +463,9 @@ title: Algorithmic Paradigms
   - When to use: adversarial two-player perfect-information games.
   - Trade-offs: full game trees are feasible only for small games; large games require heuristic evaluation functions and bounded-depth search, sacrificing exactness for tractability.
 
-- **Game DP — Sprague–Grundy Theory**
+- **Game DP — Sprague-Grundy Theory**
   - Core idea: reduce combinatorial games (under the normal play convention) to Nim via Grundy numbers (nimbers), enabling $O(1)$ analysis of compound games.
-  - Mechanism: compute the Grundy number of a position as $\text{mex}$ (minimum excludant) of the Grundy numbers of positions reachable from it; a position is losing for the player to move iff its Grundy number is $0$; combine independent games via XOR of their Grundy numbers (Sprague–Grundy Theorem).
+  - Mechanism: compute the Grundy number of a position as $\text{mex}$ (minimum excludant) of the Grundy numbers of positions reachable from it; a position is losing for the player to move iff its Grundy number is $0$; combine independent games via XOR of their Grundy numbers (Sprague-Grundy Theorem).
   - Iconic problems: Nim, Grundy's Game, Turning Turtles, most impartial combinatorial games seen in competitive programming.
   - When to use: impartial games (both players have the same moves available) under normal play (last player to move wins).
   - Trade-offs: applies only to impartial games; partisan games (like Chess) require different tools from combinatorial game theory more broadly.
@@ -502,12 +502,12 @@ title: Algorithmic Paradigms
 | Cache-Oblivious/External      | Optimize for memory hierarchy     | $O(\frac{n}{B}\log_{M/B}\frac{n}{B})$ I/Os | Datasets larger than RAM                | Hardware-aware tuning (external)    |
 | Distributed/Parallel          | Concurrent execution              | Bounded by Amdahl's Law                    | HPC, ML training, large-scale data      | Communication/coordination overhead |
 | Minimax/Alpha-Beta            | Adversarial optimal play          | $O(b^d)$, $O(b^{d/2})$ pruned              | Two-player perfect-information games    | Bounded depth needed at scale       |
-| Game DP (Sprague–Grundy)      | Reduce to Nim via Grundy numbers  | Polynomial in game states                  | Impartial combinatorial games           | Impartial games only                |
+| Game DP (Sprague-Grundy)      | Reduce to Nim via Grundy numbers  | Polynomial in game states                  | Impartial combinatorial games           | Impartial games only                |
 
 ## Problem-to-Paradigm Mapping
 
 - **Sorting and order statistics** → Divide and Conquer (Merge/Quick Sort), Decrease and Conquer (Insertion Sort), Transform and Conquer (Heap Sort).
-- **Graph shortest paths / connectivity** → Greedy (Dijkstra, Prim), Dynamic Programming (Bellman–Ford, Floyd–Warshall), State Space Search (BFS/A\*).
+- **Graph shortest paths / connectivity** → Greedy (Dijkstra, Prim), Dynamic Programming (Bellman-Ford, Floyd-Warshall), State Space Search (BFS/A\*).
 - **Graph matching / cuts** → Network Flow Paradigm.
 - **Sequence optimization (LCS, edit distance, alignment)** → Dynamic Programming / Memoization.
 - **Subset/combinatorial search, $n \leq 20$** → Bitmask Enumeration, Brute Force.
@@ -522,7 +522,7 @@ title: Algorithmic Paradigms
 - **Real-time decisions, unknown future** → Online Algorithms.
 - **Data too large for memory** → Streaming Algorithms, Sublinear/Property Testing.
 - **Data too large for RAM but on disk** → Cache-Oblivious / External-Memory Algorithms.
-- **Two-player games** → Minimax/Alpha-Beta (partisan), Sprague–Grundy (impartial).
+- **Two-player games** → Minimax/Alpha-Beta (partisan), Sprague-Grundy (impartial).
 - **Large-scale computation across machines** → Distributed and Parallel Algorithm Design.
 
 ## Choosing the Right Paradigm

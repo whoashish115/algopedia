@@ -106,7 +106,7 @@ $$O(1) \subset O(\log n) \subset O(n) \subset O(n \log n) \subset O(n^2) \subset
 - **BPP - Bounded-error Probabilistic Polynomial Time**
   - Randomized DTM with error $\leq 1/3$.
   - Efficient poly-time algorithms using randomness, two-sided error.
-  - Iconic problems: Miller–Rabin primality test, Polynomial Identity Testing.
+  - Iconic problems: Miller-Rabin primality test, Polynomial Identity Testing.
 - **RP - Randomized Polynomial Time (one-sided error)**
   - If the answer is NO, always correct; if YES, correct with probability $\geq 1/2$.
   - Iconic problems: some primality tests, polynomial identity.
@@ -201,23 +201,23 @@ $$O(1) \subset O(\log n) \subset O(n) \subset O(n \log n) \subset O(n^2) \subset
 - Breadth-First Search (BFS), Depth-First Search (DFS), Topological Sort.
 - Strongly Connected Components (Tarjan/Kosaraju), Bridge Finding / Articulation Points.
 - Dijkstra's Algorithm - $O(E \log V)$
-- Bellman–Ford - $O(VE)$
-- Floyd–Warshall - $O(V^3)$
+- Bellman-Ford - $O(VE)$
+- Floyd-Warshall - $O(V^3)$
 - Maximum Flow (Dinic) - $O(EV^2)$; Push-Relabel Algorithm
 - Minimum Spanning Tree (Kruskal/Prim)
-- Bipartite Matching (Hopcroft–Karp), General Matching (Edmonds' Blossom)
+- Bipartite Matching (Hopcroft-Karp), General Matching (Edmonds' Blossom)
 - Minimum Cost Flow
 - Assignment Problem (Hungarian) - $O(n^3)$
 
 **String algorithms**
 
-- Knuth–Morris–Pratt (KMP) - $O(n+m)$
+- Knuth-Morris-Pratt (KMP) - $O(n+m)$
 - Z-Algorithm - $O(n)$
-- Rabin–Karp - $O(n+m)$ expected
+- Rabin-Karp - $O(n+m)$ expected
 - Suffix Array - $O(n \log n)$
 - Suffix Automaton - $O(n)$
 - Suffix Tree - $O(n)$
-- Aho–Corasick - $O(n+m+z)$
+- Aho-Corasick - $O(n+m+z)$
 - Trie Operations - $O(\text{length})$
 - Longest Common Substring - $O(n)$
 
@@ -233,7 +233,7 @@ $$O(1) \subset O(\log n) \subset O(n) \subset O(n \log n) \subset O(n^2) \subset
 
 - GCD / Extended GCD - $O(\log n)$
 - Modular Exponentiation - $O(\log n)$
-- Miller–Rabin Primality - $O(k \log^3 n)$
+- Miller-Rabin Primality - $O(k \log^3 n)$
 - Pollard's Rho - $O(n^{1/4})$
 - Chinese Remainder Theorem
 - Sieve of Eratosthenes - $O(n \log \log n)$
@@ -275,7 +275,7 @@ $$O(1) \subset O(\log n) \subset O(n) \subset O(n \log n) \subset O(n^2) \subset
 
 **Logic and satisfiability**
 
-- SAT (Cook–Levin theorem: first problem proven NP-Complete).
+- SAT (Cook-Levin theorem: first problem proven NP-Complete).
 - Variants, all NPC: 3-SAT, 1-in-3 SAT, Exact 3-SAT, NAE-SAT, Circuit SAT, Max-SAT (decision), Weighted Max-SAT, Boolean Formula Minimization.
 
 **Graph theory**
@@ -389,7 +389,7 @@ $$O(1) \subset O(\log n) \subset O(n) \subset O(n \log n) \subset O(n^2) \subset
 
 **Computational biology and chemistry optimization**
 
-- Protein Folding (many formulations), RNA Secondary Structure with Constraints, Genome Assembly (optimization variants), Haplotyping, Phylogeny Reconstruction, Maximum Parsimony, Molecular Docking, Hartree–Fock Global Optimization, Ising Model and Spin Glass Optimization.
+- Protein Folding (many formulations), RNA Secondary Structure with Constraints, Genome Assembly (optimization variants), Haplotyping, Phylogeny Reconstruction, Maximum Parsimony, Molecular Docking, Hartree-Fock Global Optimization, Ising Model and Spin Glass Optimization.
 
 **VLSI and hardware optimization**
 
@@ -426,7 +426,7 @@ $$O(1) \subset O(\log n) \subset O(n) \subset O(n \log n) \subset O(n^2) \subset
 - **Halting Problem** - given a program and input, does it halt? The classic undecidable problem.
 - **Busy Beaver** - for $n$, the maximum steps (or 1s written) an $n$-state Turing Machine can take before halting, while still eventually halting. Uncomputable.
 - **Post Correspondence Problem** - can a set of dominoes (strings on top/bottom) be arranged, with repetition, so the concatenations match? Undecidable.
-- **Entscheidungsproblem** - is a first-order logic formula valid? Undecidable (Church–Turing).
+- **Entscheidungsproblem** - is a first-order logic formula valid? Undecidable (Church-Turing).
 - **Rice's Theorem** - any nontrivial property of the language recognized by a Turing Machine is undecidable; implies program equivalence is undecidable.
 - **First-Order Logic Validity** - undecidable (Church's theorem).
 - **Hilbert's Tenth Problem** - does a Diophantine equation with integer coefficients have integer solutions? Undecidable (Matijasevich's theorem).
@@ -436,13 +436,13 @@ $$O(1) \subset O(\log n) \subset O(n) \subset O(n \log n) \subset O(n^2) \subset
 
 ## Best Known Exact Algorithms for NP-Hard Problems
 
-- Traveling Salesman (Held–Karp DP) - time $O(n^2 2^n)$, space $O(n \cdot 2^n)$
+- Traveling Salesman (Held-Karp DP) - time $O(n^2 2^n)$, space $O(n \cdot 2^n)$
 - Maximum Clique (improved Branch & Bound) - time $O(1.1996^n)$, space $O(n)$
 - Independent Set (improved branching) - time $O(1.1996^n)$, space $O(n)$
 - Vertex Cover (FPT branching) - time $O(1.2738^k)$, space $O(n)$
 - Graph Coloring (exponential backtracking/DP) - time $O(2^n n)$, space $O(2^n)$
-- Hamiltonian Cycle (inclusion–exclusion/DP) - time $O(2^n n^2)$, space $O(2^n)$
-- Steiner Tree (Dreyfus–Wagner DP) - time $O(3^k n + 2^k n^2)$, space $O(2^k n)$
+- Hamiltonian Cycle (inclusion-exclusion/DP) - time $O(2^n n^2)$, space $O(2^n)$
+- Steiner Tree (Dreyfus-Wagner DP) - time $O(3^k n + 2^k n^2)$, space $O(2^k n)$
 - Dominating Set (branch & reduce) - time $O(1.4969^n)$, space $O(n)$
 - Set Cover (DP/Branch & Bound) - time $O(2^n)$, space $O(2^n)$
 - Knapsack 0/1 (DP pseudo-poly or meet-in-the-middle) - time $O(nW)$ or $O(2^{n/2})$, space matching
@@ -477,7 +477,7 @@ $$O(1) \subset O(\log n) \subset O(n) \subset O(n \log n) \subset O(n^2) \subset
 - **ZPP** - always correct, expected polynomial time; equals $RP \cap \text{co-RP}$; Las Vegas algorithms live here.
 - **PP** - success probability $> 1/2$; very broad, contains NP; the gap from $1/2$ can be exponentially small, so amplification is nontrivial.
 - **Known relationships**: $P \subseteq ZPP \subseteq RP \subseteq BPP \subseteq PP \subseteq PSPACE$. Believed $BPP = P$. $RP \subseteq NP$. $PP \supseteq NP$.
-- **Key randomized algorithms**: Miller–Rabin primality test (BPP), Polynomial Identity Testing (co-RP), randomized QuickSort (ZPP expected), random sampling for approximate counting.
+- **Key randomized algorithms**: Miller-Rabin primality test (BPP), Polynomial Identity Testing (co-RP), randomized QuickSort (ZPP expected), random sampling for approximate counting.
 
 ## Quantum Complexity Classes
 
@@ -532,7 +532,7 @@ $$O(1) \subset O(\log n) \subset O(n) \subset O(n \log n) \subset O(n^2) \subset
 **Key theorems**
 
 - **Fagin's Theorem (1974)** - $NP = \exists SO$; NP problems are exactly those definable by existential second-order formulas.
-- **Immerman–Vardi Theorem** - $P = FO + LFP$ on ordered structures.
+- **Immerman-Vardi Theorem** - $P = FO + LFP$ on ordered structures.
 - **Applications**: database query languages, finite model theory, structural understanding of complexity classes.
 
 ## Approximation Algorithms and Inapproximability
@@ -547,7 +547,7 @@ $$O(1) \subset O(\log n) \subset O(n) \subset O(n \log n) \subset O(n^2) \subset
 - TSP (general) - not approximable within any constant unless $P=NP$.
 - Vertex Cover - best ratio $2$; inapproximable below $1.3606$ under the Unique Games Conjecture.
 - Set Cover - best ratio $O(\log n)$; inapproximable below $(1-\varepsilon)\ln n$ unless $P=NP$.
-- Max Cut - best ratio $0.878$ (Goemans–Williamson); inapproximable above $16/17 \approx 0.941$ unless $P=NP$.
+- Max Cut - best ratio $0.878$ (Goemans-Williamson); inapproximable above $16/17 \approx 0.941$ unless $P=NP$.
 - Knapsack - has an FPTAS (any $\varepsilon$); no inapproximability bound.
 - Bin Packing - best ratio $3/2$ (asymptotic); inapproximable below $3/2 - \varepsilon$ unless $P=NP$.
 - Maximum Clique - best ratio $O(n/\log^2 n)$; inapproximable within $n^{1-\varepsilon}$ unless $P=NP$.
@@ -563,11 +563,11 @@ $$O(1) \subset O(\log n) \subset O(n) \subset O(n \log n) \subset O(n^2) \subset
 - Studies problems with extra parameters (often solution size or a structural measure), seeking algorithms exponential only in the parameter and polynomial in input size.
 - **Fixed-Parameter Tractability (FPT)** - an algorithm with running time $f(k) \cdot n^{O(1)}$, $k$ the parameter. Example: Vertex Cover is FPT with $O(1.2738^k + kn)$ time.
 - **W-hierarchy** - classes $W[1], W[2], \dots, W[P]$ believed not FPT. $W[1]$ is the parameterized analogue of NP. Clique (parameterized by $k$) is $W[1]$-Complete; Dominating Set is $W[2]$-Complete.
-- **Downey–Fellows theorem** - if a problem is $W[1]$-Hard, it is not FPT unless $FPT = W[1]$ (analogous to $P \neq NP$).
+- **Downey-Fellows theorem** - if a problem is $W[1]$-Hard, it is not FPT unless $FPT = W[1]$ (analogous to $P \neq NP$).
 - **Kernelization** - polynomial-time preprocessing reducing an instance to size bounded by $f(k)$; a problem has a kernel iff it is FPT (under reasonable assumptions). Vertex Cover has an $O(k^2)$-vertex kernel (or $O(k)$ with advanced techniques).
 - **Applications**: real-world instances of NP-Hard problems (SAT, Graph Coloring, TSP) often have small parameters, making FPT algorithms practical.
 
-## Useful Resources
+## Resources
 
 **Books**
 

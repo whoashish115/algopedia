@@ -2,33 +2,33 @@
 title: General
 ---
 
+## Binary Numbers (0-15)
 
-## Binary Numbers (0–15)
-
-| Dec | Bin | Dec | Bin | Dec | Bin | Dec | Bin |
-|---:|:---:|---:|:---:|---:|:---:|---:|:---:|
-| 0 | `0000` | 4 | `0100` | 8 | `1000` | 12 | `1100` |
-| 1 | `0001` | 5 | `0101` | 9 | `1001` | 13 | `1101` |
-| 2 | `0010` | 6 | `0110` | 10 | `1010` | 14 | `1110` |
-| 3 | `0011` | 7 | `0111` | 11 | `1011` | 15 | `1111` |
+| Dec |  Bin   | Dec |  Bin   | Dec |  Bin   | Dec |  Bin   |
+| --: | :----: | --: | :----: | --: | :----: | --: | :----: |
+|   0 | `0000` |   4 | `0100` |   8 | `1000` |  12 | `1100` |
+|   1 | `0001` |   5 | `0101` |   9 | `1001` |  13 | `1101` |
+|   2 | `0010` |   6 | `0110` |  10 | `1010` |  14 | `1110` |
+|   3 | `0011` |   7 | `0111` |  11 | `1011` |  15 | `1111` |
 
 ## Powers of Two
 
-| Power | Value | Power | Value | Power | Value |
-|:----:|------:|:----:|------:|:----:|------:|
-| $2^0$ | 1 | $2^{11}$ | 2,048 | $2^{22}$ | 4,194,304 |
-| $2^1$ | 2 | $2^{12}$ | 4,096 | $2^{23}$ | 8,388,608 |
-| $2^2$ | 4 | $2^{13}$ | 8,192 | $2^{24}$ | 16,777,216 |
-| $2^3$ | 8 | $2^{14}$ | 16,384 | $2^{25}$ | 33,554,432 |
-| $2^4$ | 16 | $2^{15}$ | 32,768 | $2^{26}$ | 67,108,864 |
-| $2^5$ | 32 | $2^{16}$ | 65,536 | $2^{27}$ | 134,217,728 |
-| $2^6$ | 64 | $2^{17}$ | 131,072 | $2^{28}$ | 268,435,456 |
-| $2^7$ | 128 | $2^{18}$ | 262,144 | $2^{29}$ | 536,870,912 |
-| $2^8$ | 256 | $2^{19}$ | 524,288 | $2^{30}$ | 1,073,741,824 |
-| $2^9$ | 512 | $2^{20}$ | 1,048,576 | $2^{31}$ | 2,147,483,648 |
-| $2^{10}$ | 1,024 | $2^{21}$ | 2,097,152 |  |  |
+|  Power   | Value |  Power   |     Value |  Power   |         Value |
+| :------: | ----: | :------: | --------: | :------: | ------------: |
+|  $2^0$   |     1 | $2^{11}$ |     2,048 | $2^{22}$ |     4,194,304 |
+|  $2^1$   |     2 | $2^{12}$ |     4,096 | $2^{23}$ |     8,388,608 |
+|  $2^2$   |     4 | $2^{13}$ |     8,192 | $2^{24}$ |    16,777,216 |
+|  $2^3$   |     8 | $2^{14}$ |    16,384 | $2^{25}$ |    33,554,432 |
+|  $2^4$   |    16 | $2^{15}$ |    32,768 | $2^{26}$ |    67,108,864 |
+|  $2^5$   |    32 | $2^{16}$ |    65,536 | $2^{27}$ |   134,217,728 |
+|  $2^6$   |    64 | $2^{17}$ |   131,072 | $2^{28}$ |   268,435,456 |
+|  $2^7$   |   128 | $2^{18}$ |   262,144 | $2^{29}$ |   536,870,912 |
+|  $2^8$   |   256 | $2^{19}$ |   524,288 | $2^{30}$ | 1,073,741,824 |
+|  $2^9$   |   512 | $2^{20}$ | 1,048,576 | $2^{31}$ | 2,147,483,648 |
+| $2^{10}$ | 1,024 | $2^{21}$ | 2,097,152 |          |               |
 
 ## Operations
+
 | Operation                     | Formula                                       | Meaning / Use                     |
 | ----------------------------- | --------------------------------------------- | --------------------------------- |
 | Bitwise AND                   | `a & b`                                       | intersection of bits              |
@@ -109,6 +109,7 @@ where
 
 > [!abstract]- Mathematical Proof
 > Binary addition consists of two independent operations: computing the **sum bits** and generating the **carry bits**. The `XOR` operation produces the sum of each bit while ignoring carries, whereas the `AND` operation identifies exactly the positions where carries are generated. Since every carry contributes to the next higher bit, its value is shifted left by one position, which is equivalent to multiplying by `2`.
+>
 > - `XOR` computes the carry-free sum:
 >   - `0 + 0 → 0`
 >   - `0 + 1 → 1`
@@ -120,7 +121,6 @@ where
 >   `a + b = (a ⊕ b) + 2(a & b)`
 
 ---
-
 
 ## Parity Equation
 
@@ -139,7 +139,6 @@ void xorSwap(int &a, int &b){
 }
 ```
 
-
 ## MSB-Greedy Principle
 
 $$
@@ -150,7 +149,7 @@ In any bitwise optimization processed from MSB to LSB, securing a `1` at bit $k$
 
 ---
 
-## Bitmasking 
+## Bitmasking
 
 In competitive programming, you often encounter problems with small
 constraints, like `N <= 20`. Whenever you see `N` hovering around
@@ -161,6 +160,7 @@ value, we care about its **binary representation**.
 
 Imagine an array of items: `['Apple', 'Banana', 'Cherry']`. Any
 subset can be represented with a 3-bit number:
+
 - bit 0 → `Apple`, bit 1 → `Banana`, bit 2 → `Cherry`.
 - `1` = item is in the subset, `0` = item is out.
 
@@ -171,6 +171,7 @@ subset can be represented with a 3-bit number:
 ```
 
 ## Bitset
+
 For problems involving huge boolean arrays and set operations at
 scale (e.g. reachability, subset-sum, string matching via bitset),
 `std::bitset<N>` packs `N` bits into words and lets `&`, `|`, `^`,
@@ -184,6 +185,7 @@ often is the difference between TLE and AC.
 ## Boolean Identities
 
 #### Identity
+
 $$
 a\land1=a,\qquad
 a\lor0=a,\qquad
@@ -191,18 +193,21 @@ a\oplus0=a
 $$
 
 #### Null / Domination
+
 $$
 a\land0=0,\qquad
 a\lor1=1
 $$
 
 #### Idempotent
+
 $$
 a\land a=a,\qquad
 a\lor a=a
 $$
 
 #### Complement
+
 $$
 a\land\neg a=0,\qquad
 a\lor\neg a=1,\qquad
@@ -210,11 +215,13 @@ a\oplus1=\neg a
 $$
 
 #### Double Negation
+
 $$
 \neg(\neg a)=a
 $$
 
 #### Commutative
+
 $$
 a\land b=b\land a,\qquad
 a\lor b=b\lor a,\qquad
@@ -222,37 +229,45 @@ a\oplus b=b\oplus a
 $$
 
 #### Associative
+
 $$
 (a\land b)\land c=a\land(b\land c)
 $$
+
 $$
 (a\lor b)\lor c=a\lor(b\lor c)
 $$
+
 $$
 (a\oplus b)\oplus c=a\oplus(b\oplus c)
 $$
 
 #### Distributive
+
 $$
 a\land(b\lor c)=(a\land b)\lor(a\land c)
 $$
+
 $$
 a\lor(b\land c)=(a\lor b)\land(a\lor c)
 $$
 
 #### Absorption
+
 $$
 a\lor(a\land b)=a,\qquad
 a\land(a\lor b)=a
 $$
 
 #### De Morgan
+
 $$
 \neg(a\land b)=\neg a\lor\neg b,\qquad
 \neg(a\lor b)=\neg a\land\neg b
 $$
 
 #### XOR / Mixed Identities
+
 $$
 a\oplus a=0,\qquad
 a\oplus0=a,\qquad
@@ -284,11 +299,13 @@ a\lor(a\oplus b)=a\lor b
 $$
 
 #### Arithmetic Identity
+
 $$
 a+b=(a\oplus b)+2(a\land b)
 $$
 
 #### Reversibility
+
 $$
 a\oplus b=c
 \iff
@@ -298,32 +315,33 @@ b\oplus c=a
 $$
 
 #### Cancellation
+
 $$
 x\oplus x=0,\qquad
 x\oplus y=x\oplus z\iff y=z
 $$
 
-
 ## Operator Law Map
 
-| Law | Follows for |
-|---|---|
-| Identity | AND, OR, XOR |
-| Null / Domination | AND, OR |
-| Idempotent | AND, OR |
-| Complement | AND, OR, XOR |
-| Double Negation | NOT |
-| Commutative | AND, OR, XOR |
-| Associative | AND, OR, XOR |
-| Distributive | AND over OR, OR over AND |
-| Absorption | AND, OR |
-| De Morgan | NOT with AND / OR |
-| XOR / Mixed Identities | XOR, AND, OR |
-| Arithmetic Relation | XOR, AND |
-| Reversibility | XOR |
-| Cancellation | XOR |
+| Law                    | Follows for              |
+| ---------------------- | ------------------------ |
+| Identity               | AND, OR, XOR             |
+| Null / Domination      | AND, OR                  |
+| Idempotent             | AND, OR                  |
+| Complement             | AND, OR, XOR             |
+| Double Negation        | NOT                      |
+| Commutative            | AND, OR, XOR             |
+| Associative            | AND, OR, XOR             |
+| Distributive           | AND over OR, OR over AND |
+| Absorption             | AND, OR                  |
+| De Morgan              | NOT with AND / OR        |
+| XOR / Mixed Identities | XOR, AND, OR             |
+| Arithmetic Relation    | XOR, AND                 |
+| Reversibility          | XOR                      |
+| Cancellation           | XOR                      |
 
 ---
+
 ## Submask Enumeration
 
 For a fixed `mask`, all of its submasks can be generated in **descending order** using
@@ -369,12 +387,10 @@ for (int submask = mask;; submask = (submask - 1) & mask) {
 }
 ```
 
-
 ## Tricks
 
 - Prefix XOR for Range Queries
-    
-    Just like a prefix-sum array gives `Sum(L, R) = P[R] - P[L-1]`, and because XOR is its own inverse (`x ^ x = 0`):
-    1. Build a prefix XOR array: `P[i] = P[i-1] ^ A[i]`
-    2. XOR of range `[L, R]` = `P[R] ^ P[L-1]`
-    Elements from `0` to `L-1` appear in both `P[R]` and `P[L-1]`, so XORing cancels them, leaving only the elements from `L` to `R`.
+  Just like a prefix-sum array gives `Sum(L, R) = P[R] - P[L-1]`, and because XOR is its own inverse (`x ^ x = 0`):
+  1. Build a prefix XOR array: `P[i] = P[i-1] ^ A[i]`
+  2. XOR of range `[L, R]` = `P[R] ^ P[L-1]`
+     Elements from `0` to `L-1` appear in both `P[R]` and `P[L-1]`, so XORing cancels them, leaving only the elements from `L` to `R`.

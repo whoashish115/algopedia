@@ -1,0 +1,20 @@
+---
+title: Blogs
+---
+- [blog.shahjalalshohag.com](http://blog.shahjalalshohag.com/) - ultimate topic list with tutorials, problems, and templates.
+- [Codeforces Blogs](http://codeforces.com/) - official community blogs and editorials.
+- [Algorithms Weekly](http://petr-mitrichev.blogspot.com/) - high-quality algorithm insights by Petr Mitrichev.
+- [Entropy Always Increases](http://blog.brucemerry.org.za/) - deep technical posts on algorithms and optimization.
+- [Psyho’s Blog](http://psyho.gg/) - advanced contest strategies and problem solving.
+- [Namespace Anudeep ;)](https://blog.anudeep2011.com/) - clear explanations and contest write-ups.
+- [vexorian’s Blog](http://www.vexorian.com/) - classic algorithms and competitive programming topics.
+- [Fushar’s Blog](http://fusharblog.com/) - structured tutorials and problem breakdowns.
+- [WJMZBMR](http://wjmzbmr.com/) (Chinese) - advanced algorithm discussions.
+- [小月的耍廢日誌](http://dreamoon4.blogspot.tw/) (Chinese) - contest write-ups and insights.
+- [Morris’ Blog](http://morris821028.github.io/) (Chinese) - detailed algorithm explanations.
+- [xudyh](http://xudyh.github.io/) (Chinese) - competitive programming tutorials and notes.
+- [Useful Codeforces Blogs](https://codeforces.com/blog/entry/91363) - Curated list of helpful CF blog posts
+- [Helpful Codeforces Extensions](https://codeforces.com/blog/entry/82884) - Useful browser extensions for CF
+- [Stress Testing](https://ali-ibrahim137.github.io/competitive/programming/2020/08/23/Stress-Testing.html) - How to stress‑test your solutions
+- [How to Find a Solution](https://www.topcoder.com/thrive/articles/How%20To%20Find%20a%20Solution) - TopCoder guide to problem‑solving
+- [How to Dissect a TopCoder Problem Statement](https://www.topcoder.com/thrive/articles/How%20To%20Dissect%20a%20Topcoder%20Problem%20Statement%20Content) - Understanding problem statements

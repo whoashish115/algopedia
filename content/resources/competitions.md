@@ -1,0 +1,25 @@
+---
+title: Competitions
+---
+
+- [Meta Hacker Cup](https://www.facebook.com/codingcompetitions/hacker-cup/) - Annual global algorithmic competition by Meta
+- [Google Coding Competitions](https://codingcompetitions.withgoogle.com) - Official Google contest series (Code Jam, Kick Start)
+- [ICPC Global](https://icpc.global) - International Collegiate Programming Contest (world finals)
+- [ICPC Regionals](https://icpc.global/regionals) - ICPC regional contests
+- [Yandex Cup](https://yandex.com/cup) - Yandex’s algorithmic cup
+- [Yandex Cup CYF](https://contest.yandex.ru/CYF) - Yandex Cup (same series, different track)
+- [Yandex Coderun](https://coderun.yandex.ru) - Yandex Coderun contests
+- [Open Cup](https://opencup.ru) - Russian team contest series (open to all)
+- [Bubble Cup](https://bubblecup.org) - Microsoft‑sponsored international competition
+- [Game AI Cup](https://gameaicup.com) - Game AI programming cup
+- [Midnight Code Cup](https://midnightcodecup.org) - Midnight Code Cup
+- [Blackbox Cup](https://blackboxcup.com) - Blackbox Cup
+- [USACO](https://usaco.org) - USA Computing Olympiad (national championship)
+- [Universal Cup](https://ucup.ac) - Global team contest series (UCup)
+- [ICFP Contest](https://icfpconference.org) - ICFP Programming Contest (annual)
+- [Deadline24](https://deadline24.pl) - Polish marathon programming competition
+- [Marathon24](https://marathon24.com) - Marathon24 contest
+- [IPSC](https://ipsc.ksp.sk) - Internet Problem Solving Contest (annual)
+- [Russian Code Cup](https://russiancodecup.ru) - Russian Code Cup archive
+- [Russian AI Cup](https://russianaicup.ru) - AI programming competition
+- [Microsoft Imagine Cup](https://imaginecup.microsoft.com/) - Student innovation competition
